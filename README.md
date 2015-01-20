@@ -4,7 +4,7 @@ Intellij Zurb Foundation 5 plugin
 An IntelliJ plugin containing Zurb foundation 5 live templates! This plugin works for the following JetBrains products:
 
 - IntelliJ IDEA
-- WebStorm and PhpStorm
+- WebStorm 9 and PhpStorm
 - RubyMine 7.0.2
 
 
