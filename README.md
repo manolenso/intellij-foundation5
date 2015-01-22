@@ -57,6 +57,6 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | button basic                     | zf-bt                          |
 | button sizing                    | zf-bts                         |
 | button colors                    | zf-btc                         |
-
+| button group (all options)       | zf-btg                         |
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
