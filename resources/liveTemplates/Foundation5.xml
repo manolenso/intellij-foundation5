@@ -51,4 +51,58 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
+    <template name="zf-row" value="&lt;div class=&quot;row&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="grid  Foundation" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-slc" value="&lt;div class=&quot;small-$OPT1$ large-$OPT2$ columns&quot;&gt;$OPT3$&lt;/div&gt;" description="small-? large-? columns-? Foundation" toReformat="true" toShortenFQNames="true">
+        <variable name="OPT1" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT2" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT3" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-lc" value="&lt;div class=&quot;large-$OPT1$ columns&quot;&gt;$OPT2$&lt;/div&gt;" description="large-? columns-? Foundation" toReformat="true" toShortenFQNames="true">
+        <variable name="OPT1" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT2" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-sc" value="&lt;div class=&quot;small-$OPT1$ columns&quot;&gt;$OPT2$&lt;/div&gt;" description="small-? columns-? Foundation" toReformat="true" toShortenFQNames="true">
+        <variable name="OPT1" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT2" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-mc" value="&lt;div class=&quot;medium-$OPT1$ columns&quot;&gt;$OPT2$&lt;/div&gt;" description="medium-? columns-? Foundation" toReformat="true" toShortenFQNames="true">
+        <variable name="OPT1" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT2" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
 </templateSet>
