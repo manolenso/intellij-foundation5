@@ -6,9 +6,7 @@ An IntelliJ plugin containing Zurb foundation 5 live templates! This plugin work
 - IntelliJ IDEA
 - WebStorm 9
 - RubyMine 7.0.2
-
 (probably, but not tested!)
-
 - PhpStorm
 
 
@@ -23,13 +21,13 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 1) `File > Settings > Plugins` and click on the `Browse repositories` button.
 
-2) Search for `Bootstrap` then right click and select `Download plugin`.
+2) Search for `Foundation 5` then right click and select `Download plugin`.
 
 3) Finally hit the `Apply` button, agree to restart your IDE and you're all done!
 
 ## contents
 - [CDN](#cdn)
-- [Grid](#Grid)
+- [GRID](#Grid)
 
 
 ### CDN
@@ -41,7 +39,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | CDN link (JS Library)          | zf-cdn.lib                     |
 | CDN link (JS vendor)           | zf-cdn.vendor                  |
 
-### Grid
+### GRID
 
 | Component                        | Snippet code                   |
 |----------------------------------| :-----------------------------:|
@@ -52,3 +50,4 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | medium-? columns                 | zf-m                           |
 | large-? columns                  | zf-l                           |
 
+Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
