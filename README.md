@@ -26,7 +26,8 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ## contents
 - [CDN](#cdn)
-- [GRID](#Grid)
+- [GRID](#grid)
+- [BUTTONS](#buttons)
 
 
 ### CDN
@@ -48,5 +49,14 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | small-? columns                  | zf-s                           |
 | medium-? columns                 | zf-m                           |
 | large-? columns                  | zf-l                           |
+
+### BUTTONS
+
+| Component                        | Snippet code                   |
+|----------------------------------| :-----------------------------:|
+| button basic                     | zf-bt                          |
+| button sizing                    | zf-bts                         |
+| button colors                    | zf-btc                         |
+
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
