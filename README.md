@@ -20,7 +20,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 1) `File > Settings > Plugins` and click on the `Browse repositories` button.
 
-2) Search for `Foundation 5` then right click and select `Download plugin`.
+2) Search for `Zurb Foundation 5` then right click and select `Download plugin`.
 
 3) Finally hit the `Apply` button, agree to restart your IDE and you're all done!
 

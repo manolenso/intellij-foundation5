@@ -1,8 +1,8 @@
 <idea-plugin version="2" url="https://github.com/manolenso/intellij-foundation5">
-  <id>com.yourcompany.unique.plugin.id</id>
+  <id>com.manolenso.intellij.foundation5</id>
   <name>Zurb Foundation 5</name>
   <version>1.0</version>
-  <vendor email="remylaurent89@gmail.com" url="https://github.com/manolenso/intellij-foundation5">Manolenso</vendor>
+  <vendor url="https://github.com/manolenso/intellij-foundation5">Manolenso</vendor>
 
   <description><![CDATA[
      <h2>Zurb Foundation 5 live template snippets </h2>
