@@ -63,7 +63,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="zf-js.init" value="&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.$CALL$.js&quot;&gt;&lt;/script&gt;&#10;&#10;&lt;script&gt;&#10;    $(document).foundation();&#10;&lt;/script&gt;" description="CDN js.min + js.min lib + initialize Foundation" toReformat="false" toShortenFQNames="true">
+    <template name="zf-jinit" value="&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.$CALL$.js&quot;&gt;&lt;/script&gt;&#10;&#10;&lt;script&gt;&#10;    $(document).foundation();&#10;&lt;/script&gt;" description="CDN js.min + js.min lib + initialize Foundation" toReformat="false" toShortenFQNames="true">
         <variable name="CALL" expression="enum(&quot;abide.min&quot;, &quot;accordion.min&quot;, &quot;alert.min&quot;, &quot;clearing.min&quot;, &quot;dropdown.min&quot;, &quot;equalizer.min&quot;, &quot;interchange.min&quot;, &quot;joyride.min&quot;, &quot;magellan.min&quot;, &quot;offcanvas.min&quot;, &quot;orbit.min&quot;, &quot;reveal.min&quot;, &quot;slider.min&quot;, &quot;tab.min&quot;, &quot;tooltip.min&quot;, &quot;topbar.min&quot;)" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -144,8 +144,8 @@
     </template>
     <!-- END STRUCTURE GROUP -->
     <!-- BUTTONS GROUP -->
-    <template name="zf-bt" value="&lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;$OPT1$&lt;/a&gt;" description="button basic Foundation" toReformat="true" toShortenFQNames="true">
-        <variable name="OPT1" expression="" defaultValue="" alwaysStopAt="true" />
+    <template name="zf-bt" value="&lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;$VAR1$&lt;/a&gt;$END$" description="button basic Foundation" toReformat="true" toShortenFQNames="true">
+        <variable name="VAR1" expression="&quot;Button&quot;" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>

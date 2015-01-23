@@ -67,7 +67,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 | Component                        | Snippet code                   |
 |----------------------------------| :-----------------------------:|
-| CDN js.min + js.min lib          | zf-js.init                     |
+| CDN js.min + js.min lib          | zf-jinit                     |
 |  + initialize Foundation         |                                |
 
 
