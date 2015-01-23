@@ -26,20 +26,20 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ## contents
 - [CDN](#cdn)
-- [GRID](#grid)
+- [STRUCTURE](#structure)
 - [BUTTONS](#buttons)
-
 
 ### CDN
 
 | Component                      | Snippet code                   |
 |------------------------------- | :-----------------------------:|
 | CDN link (CSS or CSS.MIN)      | zf-cdn.css                     |
+| CDN link (ICON or ICON.MIN)    | zf-cdn.icn                     |
 | CDN link (JS  or JS.MIN)       | zf-cdn.js                      |
 | CDN link (JS Library)          | zf-cdn.lib                     |
 | CDN link (JS vendor)           | zf-cdn.vendor                  |
 
-### GRID
+### STRUCTURE
 
 | Component                        | Snippet code                   |
 |----------------------------------| :-----------------------------:|
@@ -58,5 +58,17 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | button sizing                    | zf-bts                         |
 | button colors                    | zf-btc                         |
 | button group (all options)       | zf-btg                         |
+| button bar group (all options)   | zf-btbg                        |
+| button stack group (all options) | zf-btsg                        |
+| button split (all options)       | zf-btsp [!JS.USE](#js.use)     |
+| button dropdown (all options)    | zf-btdp [!JS.USE](#js.use)     |
+
+### JS.USE
+
+| Component                        | Snippet code                   |
+|----------------------------------| :-----------------------------:|
+| CDN js.min + js.min lib          | zf-js.init                     |
+|  + initialize Foundation         |                                |
+
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
