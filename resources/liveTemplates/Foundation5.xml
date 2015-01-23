@@ -154,8 +154,9 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="zf-bts" value="&lt;a href=&quot;#&quot; class=&quot;$OPT1$&quot;&gt;&lt;/a&gt;$END$" description="button sizing Foundation" toReformat="true" toShortenFQNames="true">
+    <template name="zf-bts" value="&lt;a href=&quot;#&quot; class=&quot;$OPT1$&quot;&gt;&quot;$OPT2$&lt;/a&gt;" description="button sizing Foundation" toReformat="true" toShortenFQNames="true">
         <variable name="OPT1" expression="enum(&quot;button tiny&quot;, &quot;button small&quot;, &quot;button disabled&quot;, &quot;button large&quot;, &quot;button expand&quot;, &quot;button round&quot;, &quot;button radius&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT2" expression="&quot;Title_button&quot;" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -164,8 +165,9 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="zf-btc" value="&lt;a href=&quot;#&quot; class=&quot;$OPT1$&quot;&gt;&lt;/a&gt;$END$" description="button colors Foundation" toReformat="true" toShortenFQNames="true">
+    <template name="zf-btc" value="&lt;a href=&quot;#&quot; class=&quot;$OPT1$&quot;&gt;$OPT2$&lt;/a&gt;" description="button colors Foundation" toReformat="true" toShortenFQNames="true">
         <variable name="OPT1" expression="enum(&quot;button success&quot;, &quot;button secondary&quot;, &quot;button alert&quot;, &quot;button info&quot;, &quot;button disabled&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT2" expression="&quot;Title_Button&quot;" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -174,10 +176,13 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="zf-btg" value="    &lt;ul class=&quot;button-group$OPT1$&quot;&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;Title_Button-1&lt;/a&gt;&lt;/li&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;Title_Button-2&lt;/a&gt;&lt;/li&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;Title_Button-3&lt;/a&gt;&lt;/li&gt;&#10;    &lt;/ul&gt;" description="button group Foundation" toReformat="true" toShortenFQNames="true">
+    <template name="zf-btg" value="    &lt;ul class=&quot;button-group$OPT1$&quot;&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;$OPT4$&lt;/a&gt;&lt;/li&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;$OPT5$&lt;/a&gt;&lt;/li&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;$OPT6$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;/ul&gt;" description="button group Foundation" toReformat="true" toShortenFQNames="true">
         <variable name="OPT1" expression="enum(&quot;&quot;, &quot; radius&quot;, &quot; round&quot;)" defaultValue="" alwaysStopAt="true" />
         <variable name="OPT2" expression="enum(&quot;&quot;, &quot; tiny&quot;, &quot; small&quot;, &quot; large&quot;)" defaultValue="" alwaysStopAt="true" />
         <variable name="OPT3" expression="enum(&quot;&quot;, &quot;secondary&quot;, &quot;alert&quot;,  &quot;success&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT4" expression="&quot;Title_Button-1&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT5" expression="&quot;Title_Button-2&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT6" expression="&quot;Title_Button-3&quot;" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -186,10 +191,13 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="zf-btbg" value="&lt;div class=&quot;button-bar&quot;&gt;&#10;    &lt;ul class=&quot;button-group$OPT1$&quot;&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;Title_Button-1&lt;/a&gt;&lt;/li&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;Title_Button-2&lt;/a&gt;&lt;/li&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;Title_Button-3&lt;/a&gt;&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;&lt;/div&gt;" description="button bar group Foundation" toReformat="true" toShortenFQNames="true">
+    <template name="zf-btbg" value="&lt;div class=&quot;button-bar&quot;&gt;&#10;    &lt;ul class=&quot;button-group$OPT1$&quot;&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;$OPT4$&lt;/a&gt;&lt;/li&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;$OPT5$&lt;/a&gt;&lt;/li&gt;&#10;        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;button$OPT2$ $OPT3$&quot;&gt;$OPT6$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;&lt;/div&gt;" description="button bar group Foundation" toReformat="true" toShortenFQNames="true">
         <variable name="OPT1" expression="enum(&quot;&quot;, &quot; radius&quot;, &quot; round&quot;)" defaultValue="" alwaysStopAt="true" />
         <variable name="OPT2" expression="enum(&quot;&quot;, &quot; tiny&quot;, &quot; small&quot;, &quot; large&quot;)" defaultValue="" alwaysStopAt="true" />
         <variable name="OPT3" expression="enum(&quot;&quot;, &quot;secondary&quot;, &quot;alert&quot;,  &quot;success&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT4" expression="&quot;Title_Button-1&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT5" expression="&quot;Title_Button-2&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT6" expression="&quot;Title_Button-3&quot;" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
