@@ -3,10 +3,11 @@ Intellij Zurb Foundation 5 plugin
 
 An IntelliJ plugin containing Zurb foundation 5 live templates! This plugin works for the following JetBrains products:
 
-- IntelliJ IDEA
+- IntelliJ IDEA 14 , PhpStorm 8, RubyMine 7
 - WebStorm 9
-- RubyMine 7.0.2
-- PhpStorm 8.0.2
+- PyCharm 4
+- RubyMine 7
+- PhpStorm 8
 
 
 ![Plugin in action](https://github.com/manolenso/intellij-foundation5/blob/master/screencasts/starter-template.gif)
@@ -38,6 +39,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 - [CONTENT](#content)
 - [MISCELLANEOUS](#miscellaneous)
 
+
  `Coming soon: X`
 
  `Available: *`
@@ -45,8 +47,8 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### CDN
 
-| Component:group zf-cdn         | Snippet code                   |
-|------------------------------- | :-----------------------------:|
+| Component:group zf-cdn `Ctrl + Space`| Snippet code                   |
+|--------------------------------- | :-----------------------------:|
 | CDN link (CSS or CSS.MIN)      | * zf-cdn-css                   |
 | CDN link (ICON or ICON.MIN)    | * zf-cdn-icn                   |
 | CDN link (JS  or JS.MIN)       | * zf-cdn-js                    |
@@ -55,7 +57,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### STRUCTURE
 
-| Component:group zf-st            | Snippet code                   |
+| Component:group zf-st`Ctrl + Space`| Snippet code                   |
 |----------------------------------| :-----------------------------:|
 | row                              | * zf-row                       |
 | small-? large-?  columns         | * zf-slc                       |
@@ -69,7 +71,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### NAVIGATION
 
-| Component:group zf-nv            | Snippet code                   |
+| Component:group zf-nv `Ctrl + Space` | Snippet code                   |
 |----------------------------------| :-----------------------------:|
 | Off-canvas | X `JS` |
 | Top Bar |    X   `JS` |
@@ -83,7 +85,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### MEDIA
 
-| Component:group zf-md            | Snippet code                   |
+| Component:group zf-md `Ctrl + Space` | Snippet code                   |
 |----------------------------------| :-----------------------------:|
 |Orbit Slider | X `JS` |
 |Thumbnails  | X  |
@@ -92,7 +94,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### FORMS
 
-| Component:group zf-fr            | Snippet code                   |
+| Component:group zf-fr `Ctrl + Space` | Snippet code                   |
 |----------------------------------| :-----------------------------:|
 |Forms  | X |
 |Switches | X |
@@ -102,7 +104,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ###BUTTONS
 
-| Component:group zf-bt                        | Snippet code                   |
+| Component:group zf-bt `Ctrl + Space`  | Snippet code                   |
 |----------------------------------| :-----------------------------:|
 | button basic                     | * zf-bt                        |
 | button sizing                    | * zf-bts                       |
@@ -118,14 +120,14 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### TYPOGRAPHY
 
-| Component:group zf-tx            | Snippet code                   |
+| Component:group zf-tx `Ctrl + Space` | Snippet code                   |
 |----------------------------------| :-----------------------------:|
 | Labels     |       |
 
 
 ### CALLOUTS & PROMPTS
 
-| Component:group zf-cp            | Snippet code                   |
+| Component:group zf-cp `Ctrl + Space` | Snippet code                   |
 |----------------------------------| :-----------------------------:|
 | Reveal Modal   | X `JS`    |
 | Alerts     |  X `JS`   |
@@ -136,7 +138,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### CONTENT
 
-| Component:group zf-ct            | Snippet code                   |
+| Component:group zf-ct `Ctrl + Space` | Snippet code                   |
 |----------------------------------| :-----------------------------:|
 | Dropdowns  |  X`JS` |
 | Pricing Tables | X `JS`   |
