@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- CDN GROUP -->
 <templateSet group="Foundation5">
-    <template name="zf-cdn.lib" value="&#10;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.$VAL1$$VAL2$.js&quot;&gt;&lt;/script&gt;" description="CDN js Library Foundation 5.5.0" toReformat="true" toShortenFQNames="true">
+    <template name="zf-cdn-lib" value="&#10;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.$VAL1$$VAL2$.js&quot;&gt;&lt;/script&gt;" description="CDN js Library Foundation 5.5.0" toReformat="true" toShortenFQNames="true">
         <variable name="VAL1" expression="enum(&quot;abide&quot;, &quot;accordion&quot;, &quot;alert&quot;, &quot;clearing&quot;, &quot;dropdown&quot;, &quot;equalizer&quot;, &quot;interchange&quot;, &quot;joyride&quot;, &quot;magellan&quot;, &quot;offcanvas&quot;, &quot;orbit&quot;, &quot;reveal&quot;, &quot;slider&quot;, &quot;tab&quot;, &quot;tooltip&quot;, &quot;topbar&quot;)" defaultValue="" alwaysStopAt="true" />
         <variable name="VAL2" expression="enum(&quot;&quot;, &quot;.min&quot;)" defaultValue="" alwaysStopAt="true" />
         <context>
@@ -12,7 +12,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="zf-cdn.js" value="&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/$VALUE$.js&quot;&gt;&lt;/script&gt;" description="CDN js Foundation 5.5.0" toReformat="true" toShortenFQNames="true">
+    <template name="zf-cdn-js" value="&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/$VALUE$.js&quot;&gt;&lt;/script&gt;" description="CDN js Foundation 5.5.0" toReformat="true" toShortenFQNames="true">
         <variable name="VALUE" expression="enum(&quot;foundation&quot;, &quot;foundation.min&quot;)" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -22,7 +22,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="zf-cdn.vendor" value="&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/vendor/$VALUE$.js&quot;&gt;&lt;/script&gt;" description="CDN vendor js Library Foundation 5.5.0" toReformat="true" toShortenFQNames="true">
+    <template name="zf-cdn-vendor" value="&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/vendor/$VALUE$.js&quot;&gt;&lt;/script&gt;" description="CDN vendor js Library Foundation 5.5.0" toReformat="true" toShortenFQNames="true">
         <variable name="VALUE" expression="enum(&quot;fastclick&quot;, &quot;jquery.cookie&quot;, &quot;jquery&quot;, &quot;modernizr&quot;, &quot;placeholder&quot;)" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -32,7 +32,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="zf-cdn.css" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/$VALUE$.css&quot;/&gt;" description="CDN css Foundation 5.5.0" toReformat="true" toShortenFQNames="true">
+    <template name="zf-cdn-css" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/$VALUE$.css&quot;/&gt;" description="CDN css Foundation 5.5.0" toReformat="true" toShortenFQNames="true">
         <variable name="VALUE" expression="enum(&quot;foundation&quot;, &quot;foundation.min&quot;, &quot;normalize&quot;, &quot;normalize.min&quot;)" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -42,7 +42,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="zf-cdn.icon" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-$VALUE$.css&quot;/&gt;" description="CDN icon Foundation 5.5.0" toReformat="true" toShortenFQNames="true">
+    <template name="zf-cdn-icon" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-$VALUE$.css&quot;/&gt;" description="CDN icon Foundation 5.5.0" toReformat="true" toShortenFQNames="true">
         <variable name="VALUE" expression="enum(&quot;icons&quot;, &quot;icons.min&quot;)" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -53,27 +53,7 @@
         </context>
     </template>
     <!-- END CDN GROUP -->
-    <!-- MISC GROUP -->
-    <template name="zf-bower" value="&lt;!doctype html&gt;&#10;&lt;html class=&quot;no-js&quot; lang=&quot;en&quot;&gt;&#10;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;utf-8&quot; /&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;&#10;    &lt;script src=&quot;bower_components/modernizr/modernizr.js&quot;&gt;&lt;/script&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;bower_components/foundation/css/foundation.css&quot;/&gt;&#10;    &lt;title&gt;&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;    $END$&#10;&#10;&lt;script src=&quot;bower_components/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;bower_components/foundation/js/foundation.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;/body&gt;&#10;&#10;&lt;/html&gt;" description="Template html bower_components" toReformat="true" toShortenFQNames="true">
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="PHP" value="true"/>
-            <option name="GSP" value="true"/>
-            <option name="JSP" value="true"/>
-        </context>
-    </template>
-    <template name="zf-jinit" value="&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.$CALL$.js&quot;&gt;&lt;/script&gt;&#10;&#10;&lt;script&gt;&#10;    $(document).foundation();&#10;&lt;/script&gt;" description="CDN js.min + js.min lib + initialize Foundation" toReformat="false" toShortenFQNames="true">
-        <variable name="CALL" expression="enum(&quot;abide.min&quot;, &quot;accordion.min&quot;, &quot;alert.min&quot;, &quot;clearing.min&quot;, &quot;dropdown.min&quot;, &quot;equalizer.min&quot;, &quot;interchange.min&quot;, &quot;joyride.min&quot;, &quot;magellan.min&quot;, &quot;offcanvas.min&quot;, &quot;orbit.min&quot;, &quot;reveal.min&quot;, &quot;slider.min&quot;, &quot;tab.min&quot;, &quot;tooltip.min&quot;, &quot;topbar.min&quot;)" defaultValue="" alwaysStopAt="true" />
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="PHP" value="true"/>
-            <option name="GSP" value="true"/>
-            <option name="JSP" value="true"/>
-        </context>
-    </template>
-    <!-- END MISC GROUP -->
+    
     <!-- STRUCTURE GROUP -->
     <template name="zf-row" value="&lt;div class=&quot;row&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="grid  Foundation" toReformat="true" toShortenFQNames="true">
         <context>
@@ -143,6 +123,19 @@
         </context>
     </template>
     <!-- END STRUCTURE GROUP -->
+    
+    <!-- NAVIGATION GROUP -->
+    
+    <!-- END NAVIGATION GROUP -->
+    
+    <!-- MEDIA GROUP -->
+
+    <!-- END MEDIA GROUP -->
+    
+    <!-- FORM GROUP -->
+
+    <!-- END FORM GROUP -->
+    
     <!-- BUTTONS GROUP -->
     <template name="zf-bt" value="&lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;$VAR1$&lt;/a&gt;$END$" description="button basic Foundation" toReformat="true" toShortenFQNames="true">
         <variable name="VAR1" expression="&quot;Button&quot;" defaultValue="" alwaysStopAt="true" />
@@ -244,13 +237,39 @@
     </template>
    
     <!-- END BUTTONS GROUP -->
-    <!-- NAVIGATION GROUP -->
     
-    <!-- END NAVIGATION GROUP -->
-    <!-- MEDIA GROUP -->
+    <!-- TYPOGRAPHY GROUP -->
     
-    <!-- END MEDIA GROUP -->
-    <!-- FORM GROUP -->
-    
-    <!-- END FORM GROUP -->
+    <!-- END TYPOGRAPHY GROUP -->
+
+    <!-- CALLOUTS&PROMPTS GROUP -->
+
+    <!-- END CALLOUTS&PROMPTS GROUP -->
+
+    <!-- CONTENT GROUP -->
+
+    <!-- END CONTENT GROUP -->
+
+    <!-- MISCELLANEOUS GROUP -->
+    <template name="zf-bower" value="&lt;!doctype html&gt;&#10;&lt;html class=&quot;no-js&quot; lang=&quot;en&quot;&gt;&#10;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;utf-8&quot; /&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;&#10;    &lt;script src=&quot;bower_components/modernizr/modernizr.js&quot;&gt;&lt;/script&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;bower_components/foundation/css/foundation.css&quot;/&gt;&#10;    &lt;title&gt;&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;    $END$&#10;&#10;&lt;script src=&quot;bower_components/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;bower_components/foundation/js/foundation.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;/body&gt;&#10;&#10;&lt;/html&gt;" description="Template html bower_components" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-jinit" value="&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.$CALL$.js&quot;&gt;&lt;/script&gt;&#10;&#10;&lt;script&gt;&#10;    $(document).foundation();&#10;&lt;/script&gt;" description="CDN js.min + js.min lib + initialize Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="CALL" expression="enum(&quot;abide.min&quot;, &quot;accordion.min&quot;, &quot;alert.min&quot;, &quot;clearing.min&quot;, &quot;dropdown.min&quot;, &quot;equalizer.min&quot;, &quot;interchange.min&quot;, &quot;joyride.min&quot;, &quot;magellan.min&quot;, &quot;offcanvas.min&quot;, &quot;orbit.min&quot;, &quot;reveal.min&quot;, &quot;slider.min&quot;, &quot;tab.min&quot;, &quot;tooltip.min&quot;, &quot;topbar.min&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <!-- END MISCELLANEOUS GROUP -->
+
 </templateSet>

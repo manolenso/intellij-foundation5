@@ -6,7 +6,7 @@ An IntelliJ plugin containing Zurb foundation 5 live templates! This plugin work
 - IntelliJ IDEA
 - WebStorm 9
 - RubyMine 7.0.2
-- PhpStorm (probably, but not tested!)
+- PhpStorm 8.0.2
 
 
 ![Plugin in action](https://github.com/manolenso/intellij-foundation5/blob/master/screencasts/starter-template.gif)
@@ -25,50 +25,134 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 3) Finally hit the `Apply` button, agree to restart your IDE and you're all done!
 
 ## contents
+
+ `HTML`
 - [CDN](#cdn)
 - [STRUCTURE](#structure)
+- [NAVIGATION](#navigation)
+- [MEDIA](#media)
+- [FORMS](#forms)
 - [BUTTONS](#buttons)
+- [TYPOGRAPHY](#typography)
+- [CALLOUTS & PROMPTS](#callout&prompts)
+- [CONTENT](#content)
+- [MISCELLANEOUS](#miscellaneous)
+
+- X Comming soon
+- * Available
+
 
 ### CDN
 
-| Component                      | Snippet code                   |
+| Component:group zf-cdn         | Snippet code                   |
 |------------------------------- | :-----------------------------:|
-| CDN link (CSS or CSS.MIN)      | zf-cdn.css                     |
-| CDN link (ICON or ICON.MIN)    | zf-cdn.icn                     |
-| CDN link (JS  or JS.MIN)       | zf-cdn.js                      |
-| CDN link (JS Library)          | zf-cdn.lib                     |
-| CDN link (JS vendor)           | zf-cdn.vendor                  |
+| CDN link (CSS or CSS.MIN)      | * zf-cdn-css                   |
+| CDN link (ICON or ICON.MIN)    | * zf-cdn-icn                   |
+| CDN link (JS  or JS.MIN)       | * zf-cdn-js                    |
+| CDN link (JS Library)          | * zf-cdn-lib                   |
+| CDN link (JS vendor)           | * zf-cdn-vendor                |
 
 ### STRUCTURE
 
+| Component:group zf-st            | Snippet code                   |
+|----------------------------------| :-----------------------------:|
+| row                              | * zf-row                       |
+| small-? large-?  columns         | * zf-slc                       |
+| small-? medium- large-? columns  | * zf-smlc                      |
+| small-? columns                  | * zf-sc                        |
+| medium-? columns                 | * zf-mc                        |
+| large-? columns                  | * zf-lc                        |
+| Text Alignment                   | X zf-stl zf-str zf-stc zf-stj  |
+| Visibility Classes               | X show/hide                    |
+| Block Grid                       |
+
+### NAVIGATION
+
+| Component:group zf-nv            | Snippet code                   |
+|----------------------------------| :-----------------------------:|
+| Off-canvas | X `JS` |
+| Top Bar |    X   `JS` |
+| Icon Bar |  X  |
+| Side Nav |   X |
+| Magellan Sticky Nav |  X   `JS` |
+| Sub Nav  | X |
+| Breadcrumbs | X |
+| Pagination | X |
+
+
+### MEDIA
+
+| Component:group zf-md            | Snippet code                   |
+|----------------------------------| :-----------------------------:|
+|Orbit Slider | X `JS` |
+|Thumbnails  | X  |
+|Clearing Lightbox | X `JS` |
+|Flex Video |  X  |
+
+### FORMS
+
+| Component:group zf-fr            | Snippet code                   |
+|----------------------------------| :-----------------------------:|
+|Forms  | X |
+|Switches | X |
+|Range Sliders | X `JS` |
+|Abide Validation  | X `JS`   |
+
+
+###BUTTONS
+
+| Component:group zf-bt                        | Snippet code                   |
+|----------------------------------| :-----------------------------:|
+| button basic                     | * zf-bt                        |
+| button sizing                    | * zf-bts                       |
+| button colors                    | * zf-btc                       |
+| button group (all options)       | * zf-btg                       |
+| button bar group (all options)   | * zf-btbg                      |
+| button stack group (all options) | * zf-btsg                      |
+| button split (all options)       | * zf-btsp              `JS`    |
+| button dropdown (all options)    | * zf-btdp              `JS`    |
+
+
+
+
+### TYPOGRAPHY
+
+| Component:group zf-tx            | Snippet code                   |
+|----------------------------------| :-----------------------------:|
+| Labels     |       |
+
+
+### CALLOUTS & PROMPTS
+
+| Component:group zf-cp            | Snippet code                   |
+|----------------------------------| :-----------------------------:|
+| Reveal Modal   | X `JS`    |
+| Alerts     |  X `JS`   |
+| Panels     |  X  |
+| Tooltips  | X `JS`   |
+| Joyride   |  X `JS`   |
+
+
+### CONTENT
+
+| Component:group zf-ct            | Snippet code                   |
+|----------------------------------| :-----------------------------:|
+| Dropdowns  |  X`JS` |
+| Pricing Tables | X `JS`   |
+| Progress Bars  | X `JS` |
+| Tables    |   X    |
+| Accordion    |  X `JS`    |
+| Tabs  |   X  `JS`    |
+| Equalizer  |   X  `JS`    |
+
+
+### MISCELLANEOUS
+
 | Component                        | Snippet code                   |
 |----------------------------------| :-----------------------------:|
-| row                              | zf-row                         |
-| small-? large-?  columns         | zf-sl                          |
-| small-? medium- large-? columns  | zf-sml                         |
-| small-? columns                  | zf-s                           |
-| medium-? columns                 | zf-m                           |
-| large-? columns                  | zf-l                           |
-
-### BUTTONS
-
-| Component                        | Snippet code                   |
-|----------------------------------| :-----------------------------:|
-| button basic                     | zf-bt                          |
-| button sizing                    | zf-bts                         |
-| button colors                    | zf-btc                         |
-| button group (all options)       | zf-btg                         |
-| button bar group (all options)   | zf-btbg                        |
-| button stack group (all options) | zf-btsg                        |
-| button split (all options)       | zf-btsp [!JS.USE](#js.use)     |
-| button dropdown (all options)    | zf-btdp [!JS.USE](#js.use)     |
-
-### JS.USE
-
-| Component                        | Snippet code                   |
-|----------------------------------| :-----------------------------:|
-| CDN js.min + js.min lib          | zf-jinit                     |
+| CDN js.min + js.min lib          | * zf-jinit                     |
 |  + initialize Foundation         |                                |
-
+| Bower Html Template              | * zf-bower                     |
+ 
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)

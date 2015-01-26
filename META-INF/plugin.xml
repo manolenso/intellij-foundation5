@@ -8,7 +8,8 @@
      <h2>Zurb Foundation 5 live template snippets </h2>
      <br/>
 
-      <p>Follow me on Twitter: <a href="https://twitter.com/manolenso"><b>@manolenso</b></a></p>
+      <p>Follow me on Twitter: <a href="https://twitter.com/manolenso"><b>@manolenso</b></a></p><br />
+      <p>Snippets enhancement: <a href="https://github.com/manolenso/intellij-foundation5/labels/snippets%20enhancement"><b>Enhancement</b></a></p>
 
       <i>Compiled with Java 1.6</i>
 
@@ -16,7 +17,7 @@
 
   <change-notes><![CDATA[
       <br>
-      1.1 add buttons components, bugfixes<br />
+      1.1 add buttons components, bug fixes<br />
       1.0 Initial release<br />
     ]]>
   </change-notes>
