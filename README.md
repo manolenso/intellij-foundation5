@@ -40,7 +40,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
  `Coming soon: X`
 
- `Available: \*`
+ `Available: *`
 
 
 ### CDN
