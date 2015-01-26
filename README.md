@@ -38,8 +38,9 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 - [CONTENT](#content)
 - [MISCELLANEOUS](#miscellaneous)
 
-Coming soon: \X
-Available: \*
+ `Coming soon: X`
+
+ `Available: \*`
 
 
 ### CDN
