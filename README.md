@@ -34,12 +34,12 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 - [FORMS](#forms)
 - [BUTTONS](#buttons)
 - [TYPOGRAPHY](#typography)
-- [CALLOUTS & PROMPTS](#callout&prompts)
+- [CALLOUTS & PROMPTS](#callouts&prompts)
 - [CONTENT](#content)
 - [MISCELLANEOUS](#miscellaneous)
 
-- X Comming soon
-- * Available
+Coming soon: \X
+Available: \*
 
 
 ### CDN
