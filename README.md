@@ -57,17 +57,22 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### STRUCTURE
 
-| Component:group zf-st`Ctrl + Space`| Snippet code                   |
+| Component:group zf-st `Ctrl + Space`| Snippet code                |
 |----------------------------------| :-----------------------------:|
-| row                              | * zf-row                       |
-| small-? large-?  columns         | * zf-slc                       |
-| small-? medium- large-? columns  | * zf-smlc                      |
-| small-? columns                  | * zf-sc                        |
-| medium-? columns                 | * zf-mc                        |
-| large-? columns                  | * zf-lc                        |
-| Text Alignment                   | X zf-stl zf-str zf-stc zf-stj  |
-| Visibility Classes               | X show/hide                    |
-| Block Grid                       |
+| row                              | * zf-stro                       |
+| small-? large-? columns          | * zf-stslc                     |
+| small-? medium- large-? columns  | * zf-stsmlc                    |
+| small-? columns                  | * zf-stsc                      |
+| medium-? columns                 | * zf-stmc                      |
+| large-? columns                  | * zf-stlc                      |
+| Text Alignment let:              | * zf-stl                       |
+| Text Alignment right:            | * zf-str                       |
+| Text Alignment center:           | * zf-stc                       |
+| Text Alignment justify:          | * zf-stj                       |
+| Visibility Classes               | * zf-stsh                      |
+| Accessibility Classes            | * zf-stvh                      |
+| Block Grid Basic                 | * zf-stbb                      |
+| Block Grid Advanced              | * zf-stba                      |
 
 ### NAVIGATION
 
