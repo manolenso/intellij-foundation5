@@ -12,7 +12,11 @@ An IntelliJ plugin containing Zurb foundation 5 live templates! This plugin work
 
 ![Plugin in action](https://github.com/manolenso/intellij-foundation5/blob/master/screencasts/starter-template.gif)
 
+
+
 ![Icon Bar in action](https://github.com/manolenso/intellij-foundation5/blob/master/screencasts/demo-iconbar.gif)
+
+#### live template Icon Bar in action!
 
 - The [Issues](https://github.com/manolenso/intellij-foundation5/issues) section on GitHub
 
@@ -44,47 +48,46 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
  `Coming soon: X`
 
- `Available: *`
 
 
 ### CDN
 
 | Component:group zf-cdn `Ctrl + Space`| Snippet code               |
 |--------------------------------- | :-----------------------------:|
-| CDN link (CSS or CSS.MIN)      | * zf-cdn-css                   |
-| CDN link (ICON or ICON.MIN)    | * zf-cdn-icn                   |
-| CDN link (JS  or JS.MIN)       | * zf-cdn-js                    |
-| CDN link (JS Library)          | * zf-cdn-lib                   |
-| CDN link (JS vendor)           | * zf-cdn-vendor                |
+| CDN link (CSS or CSS.MIN)      |  zf-cdn-css                   |
+| CDN link (ICON or ICON.MIN)    |   zf-cdn-icn                   |
+| CDN link (JS  or JS.MIN)       |   zf-cdn-js                    |
+| CDN link (JS Library)          |   zf-cdn-lib                   |
+| CDN link (JS vendor)           |   zf-cdn-vendor                |
 
 ### STRUCTURE
 
 | Component:group zf-st `Ctrl + Space`| Snippet code                |
 |----------------------------------| :-----------------------------:|
-| row                              | * zf-stro                      |
-| small-? large-? columns          | * zf-stslc                     |
-| small-? medium- large-? columns  | * zf-stsmlc                    |
-| small-? columns                  | * zf-stsc                      |
-| medium-? columns                 | * zf-stmc                      |
-| large-? columns                  | * zf-stlc                      |
-| Text Alignment let:              | * zf-stl                       |
-| Text Alignment right:            | * zf-str                       |
-| Text Alignment center:           | * zf-stc                       |
-| Text Alignment justify:          | * zf-stj                       |
-| Visibility Classes               | * zf-stsh                      |
-| Accessibility Classes            | * zf-stvh                      |
-| Block Grid Basic                 | * zf-stbb                      |
-| Block Grid Advanced              | * zf-stba                      |
+| row                              |   zf-stro                      |
+| small-? large-? columns          |   zf-stslc                     |
+| small-? medium- large-? columns  |   zf-stsmlc                    |
+| small-? columns                  |   zf-stsc                      |
+| medium-? columns                 |   zf-stmc                      |
+| large-? columns                  |   zf-stlc                      |
+| Text Alignment let:              |   zf-stl                       |
+| Text Alignment right:            |   zf-str                       |
+| Text Alignment center:           |   zf-stc                       |
+| Text Alignment justify:          |   zf-stj                       |
+| Visibility Classes               |   zf-stsh                      |
+| Accessibility Classes            |   zf-stvh                      |
+| Block Grid Basic                 |   zf-stbb                      |
+| Block Grid Advanced              |   zf-stba                      |
 
 ### NAVIGATION
 
 | Component:group zf-nv `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
-| Off-canvas Basic                 | * zf-nvofb              `JS`   |
-| Off-canvas Advanced              | * zf-nvofa              `JS`   |
-| Top Bar                          | * zf-nvtb               `JS`   |
-| Top Bar Sticky                   | * zf-nvtbs              `JS`   |
-| Icon Bar                         | * zf-nvib                      |
+| Off-canvas Basic                 |   zf-nvofb              `JS`   |
+| Off-canvas Advanced              |   zf-nvofa              `JS`   |
+| Top Bar                          |   zf-nvtb               `JS`   |
+| Top Bar Sticky                   |   zf-nvtbs              `JS`   |
+| Icon Bar                         |   zf-nvib                      |
 | Side Nav                         |   X                            |
 | Magellan Sticky Nav |  X   `JS` |
 | Sub Nav  | X |
@@ -115,14 +118,14 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 | Component:group zf-bt `Ctrl + Space`  | Snippet code                   |
 |----------------------------------| :-----------------------------:|
-| button basic                     | * zf-bt                        |
-| button sizing                    | * zf-bts                       |
-| button colors                    | * zf-btc                       |
-| button group (all options)       | * zf-btg                       |
-| button bar group (all options)   | * zf-btbg                      |
-| button stack group (all options) | * zf-btsg                      |
-| button split (all options)       | * zf-btsp              `JS`    |
-| button dropdown (all options)    | * zf-btdp              `JS`    |
+| button basic                     |   zf-bt                        |
+| button sizing                    |   zf-bts                       |
+| button colors                    |   zf-btc                       |
+| button group (all options)       |   zf-btg                       |
+| button bar group (all options)   |   zf-btbg                      |
+| button stack group (all options) |   zf-btsg                      |
+| button split (all options)       |   zf-btsp              `JS`    |
+| button dropdown (all options)    |   zf-btdp              `JS`    |
 
 
 
@@ -162,10 +165,10 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 | Component                        | Snippet code                   |
 |----------------------------------| :-----------------------------:|
-| CDN js.min + js.min lib          | * zf-jinit                     |
+| CDN js.min + js.min lib          |   zf-jinit                     |
 |  + initialize Foundation         |                                |
-| Bower Html Template              | * zf-bower                     |
-| 283  Foundation Icon Fonts 3     | * fi-                          |
+| Bower Html Template              |   zf-bower                     |
+| 283  Foundation Icon Fonts 3     |   fi-                          |
 
 
 | Inception in (live template)     | Trigger                        |
