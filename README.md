@@ -12,6 +12,8 @@ An IntelliJ plugin containing Zurb foundation 5 live templates! This plugin work
 
 ![Plugin in action](https://github.com/manolenso/intellij-foundation5/blob/master/screencasts/starter-template.gif)
 
+![Icon Bar in action](https://github.com/manolenso/intellij-foundation5/blob/master/screencasts/demo-iconbar.gif)
+
 - The [Issues](https://github.com/manolenso/intellij-foundation5/issues) section on GitHub
 
 
@@ -47,7 +49,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### CDN
 
-| Component:group zf-cdn `Ctrl + Space`| Snippet code                   |
+| Component:group zf-cdn `Ctrl + Space`| Snippet code               |
 |--------------------------------- | :-----------------------------:|
 | CDN link (CSS or CSS.MIN)      | * zf-cdn-css                   |
 | CDN link (ICON or ICON.MIN)    | * zf-cdn-icn                   |
@@ -59,7 +61,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 | Component:group zf-st `Ctrl + Space`| Snippet code                |
 |----------------------------------| :-----------------------------:|
-| row                              | * zf-stro                       |
+| row                              | * zf-stro                      |
 | small-? large-? columns          | * zf-stslc                     |
 | small-? medium- large-? columns  | * zf-stsmlc                    |
 | small-? columns                  | * zf-stsc                      |
@@ -76,12 +78,14 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### NAVIGATION
 
-| Component:group zf-nv `Ctrl + Space` | Snippet code                   |
+| Component:group zf-nv `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
-| Off-canvas | X `JS` |
-| Top Bar |    X   `JS` |
-| Icon Bar |  X  |
-| Side Nav |   X |
+| Off-canvas Basic                 | * zf-nvofb              `JS`   |
+| Off-canvas Advanced              | * zf-nvofa              `JS`   |
+| Top Bar                          | * zf-nvtb               `JS`   |
+| Top Bar Sticky                   | * zf-nvtbs              `JS`   |
+| Icon Bar                         | * zf-nvib                      |
+| Side Nav                         |   X                            |
 | Magellan Sticky Nav |  X   `JS` |
 | Sub Nav  | X |
 | Breadcrumbs | X |
@@ -161,6 +165,12 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | CDN js.min + js.min lib          | * zf-jinit                     |
 |  + initialize Foundation         |                                |
 | Bower Html Template              | * zf-bower                     |
+| 283  Foundation Icon Fonts 3     | * fi-                          |
+
+
+| Inception in (live template)     | Trigger                        |
+|----------------------------------| :-----------------------------:|
+| icon bar                         |  ADDicon-item                  |
  
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
