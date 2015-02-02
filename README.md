@@ -88,16 +88,16 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Top Bar                          |   zf-nvtb               `JS`   |
 | Top Bar Sticky                   |   zf-nvtbs              `JS`   |
 | Icon Bar                         |   zf-nvib                      |
-| Side Nav                         |   X                            |
-| Magellan Sticky Nav |  X   `JS` |
-| Sub Nav  | X |
-| Breadcrumbs | X |
-| Pagination | X |
+| Side Nav          Accessibility  |   zf-nvsn                      |
+| Magellan                         |   zf-nvmg               `JS`   |
+| Sub Nav           Accessibility  |   zf-nvsbn                     |
+| Breadcrumbs       Accessibility  |   zf-nvbrc                     |
+| Pagination        Accessibility  |   zf-pg                        |
 
 
 ### MEDIA
 
-| Component:group zf-md `Ctrl + Space` | Snippet code                   |
+| Component:group zf-md `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
 |Orbit Slider | X `JS` |
 |Thumbnails  | X  |
@@ -173,7 +173,9 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 | Inception in (live template)     | Trigger                        |
 |----------------------------------| :-----------------------------:|
-| icon bar                         |  ADDicon-item                  |
+| add icon bar                     |  ADDicon-item                  |
+| add magellan item                |  ADDmagellan-item              |
+| add page navigation              |  ADDpage                       |
  
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
