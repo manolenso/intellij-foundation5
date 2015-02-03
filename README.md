@@ -99,14 +99,14 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 | Component:group zf-md `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
-|Orbit Slider | X `JS` |
-|Thumbnails  | X  |
-|Clearing Lightbox | X `JS` |
-|Flex Video |  X  |
+|Orbit Slider                      |   zf-mdos              `JS`    |
+|Thumbnails                        |   zf-mtb                       |
+|Clearing Lightbox                 |   zf-mdcl              `JS`    |
+|Flex Video                        |   zf-mdfv                      |
 
 ### FORMS
 
-| Component:group zf-fr `Ctrl + Space` | Snippet code                   |
+| Component:group zf-fr `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
 |Forms  | X |
 |Switches | X |
@@ -150,7 +150,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### CONTENT
 
-| Component:group zf-ct `Ctrl + Space` | Snippet code                   |
+| Component:group zf-ct `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
 | Dropdowns  |  X`JS` |
 | Pricing Tables | X `JS`   |
@@ -169,6 +169,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 |  + initialize Foundation         |                                |
 | Bower Html Template              |   zf-bower                     |
 | 283  Foundation Icon Fonts 3     |   fi-                          |
+| HTTP image placeholder           |   imgp                         |
 
 
 | Inception in (live template)     | Trigger                        |
@@ -176,6 +177,8 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | add icon bar                     |  ADDicon-item                  |
 | add magellan item                |  ADDmagellan-item              |
 | add page navigation              |  ADDpage                       |
- 
+| add orbit slider item            |  ADDslider-item                |
+| add lightbox item                |  ADDlightbox-item              |
+| add thumbnail item               |  ADDthumbnail-item             |
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
