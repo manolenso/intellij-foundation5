@@ -106,12 +106,13 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### FORMS
 
-| Component:group zf-fr `Ctrl + Space` | Snippet code               |
+| Component:group zf-fm `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
-|Forms  | X |
-|Switches | X |
-|Range Sliders | X `JS` |
-|Abide Validation  | X `JS`   |
+|Forms                             |   zf-form                      |
+|RadioSwitch                       |   zf-fors                      |
+|Checkbox                          |   zf-focb                      |
+|Range Sliders                     |   zf-fosl              `JS`    |
+|Abide Validation                  |   zf-foab              `JS`    |
 
 
 ###BUTTONS
@@ -180,5 +181,16 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | add orbit slider item            |  ADDslider-item                |
 | add lightbox item                |  ADDlightbox-item              |
 | add thumbnail item               |  ADDthumbnail-item             |
+| add email field                  |  AADemail-field                |
+| add name field                   |  AADname-field                 |
+| add password field   (equal to)  |  AADpassword-field             |
+| add submit button                |  AADsubmit-button              |
+| add fieldset                     |  AADfieldset                   |
+| add input                        |  AADinput                      |
+| add input postfix                |  AADinput-postfix              |
+| add right input inline           |  AADright-input-label          |
+| add select box                   |  ADDselect-box                 |
+| add textarea                     |  ADDtextarea                   |
+
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)

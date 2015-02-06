@@ -501,6 +501,191 @@
     <!-- END MEDIA GROUP -->
     
     <!-- FORM GROUP -->
+    <template name="zf-form" value="&lt;form&gt;&#10;    $CHOICE$$POST$&#10;&lt;/form&gt;&lt;!-- ADDinput ** ADDinput-postfix ** ADDselect-box ** ADDtextarea ** ADDright-input-inline ** ADDfieldset --&gt;" description="forms Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="CHOICE" expression="enum(&quot;ADDinput&quot;, &quot;ADDinput-postfix&quot;, &quot;ADDselect-box&quot;, &quot;ADDtextarea&quot;, &quot;ADDright-input-inline&quot;, &quot;ADDfieldset&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="POST" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDinput" value="&lt;div class=&quot;row&quot;&gt;&#10;    &lt;div class=&quot;large-$NBC$ columns&quot;&gt;&#10;        &lt;label&gt;$INP$&#10;            &lt;input type=&quot;text&quot; placeholder=&quot;$PLACH$&quot; /&gt;&#10;        &lt;/label&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;$CHOICE$$END$" description="input label  Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="NBC" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="INP" expression="&quot;Input Label&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="PLACH" expression="&quot;Placeholder&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CHOICE" expression="enum(&quot;ADDinput&quot;, &quot;ADDinput-postfix&quot;, &quot;ADDselect-box&quot;, &quot;ADDtextarea&quot;, &quot;ADDright-input-inline&quot;, &quot;ADDfieldset&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDinput-postfix" value="&lt;div class=&quot;large-4 columns&quot;&gt;&#10;    &lt;div class=&quot;row collapse&quot;&gt;&#10;        &lt;label&gt;$INP$&lt;/label&gt;&#10;        &lt;div class=&quot;small-9 columns&quot;&gt;&#10;            &lt;input type=&quot;text&quot; placeholder=&quot;$PLACH$&quot; /&gt;        &#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;small-3 columns&quot;&gt;&#10;            &lt;span class=&quot;postfix&quot;&gt;$POST$&lt;/span&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;$CHOICE$$END$" description="input label postfix  Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="INP" expression="&quot;Input Label&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="PLACH" expression="&quot;Placeholder&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="POST" expression="&quot;.com&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CHOICE" expression="enum(&quot;ADDinput&quot;, &quot;ADDinput-postfix&quot;, &quot;ADDselect-box&quot;, &quot;ADDtextarea&quot;, &quot;ADDright-input-inline&quot;, &quot;ADDfieldset&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDselect-box" value="&lt;div class=&quot;row&quot;&gt;&#10;    &lt;div class=&quot;large-$NBC$ columns&quot;&gt;&#10;        &lt;label&gt;$LAB$&#10;            &lt;select&gt;&#10;                &lt;option value=&quot;$VAL1$&quot;&gt;$VAL2$&lt;/option&gt;&#10;                &lt;option value=&quot;$VAL3$&quot;&gt;$VAL4$&lt;/option&gt;&#10;                &lt;option value=&quot;$VAL5$&quot;&gt;$VAL6$&lt;/option&gt;&#10;                &lt;option value=&quot;$VAL7$&quot;&gt;$VAL8$&lt;/option&gt;&#10;            &lt;/select&gt;&#10;        &lt;/label&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;$CHOICE$$END$" description="select box Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="NBC" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="LAB" expression="&quot;Select Box&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="VAL1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="VAL2" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="VAL3" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="VAL4" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="VAL5" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="VAL6" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="VAL7" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="VAL8" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CHOICE" expression="enum(&quot;ADDinput&quot;, &quot;ADDinput-postfix&quot;, &quot;ADDselect-box&quot;, &quot;ADDtextarea&quot;, &quot;ADDright-input-inline&quot;, &quot;ADDfieldset&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDtextarea" value="&lt;div class=&quot;row&quot;&gt;&#10;    &lt;div class=&quot;large-$NBC$ columns&quot;&gt;&#10;        &lt;label&gt;$INP$&#10;            &lt;textarea placeholder=&quot;$PLACH$&quot;&gt;&lt;/textarea&gt;&#10;        &lt;/label&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;$CHOICE$$END$" description="textarea Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="NBC" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="INP" expression="&quot;Input Label&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="PLACH" expression="&quot;Text here...&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CHOICE" expression="enum(&quot;ADDinput&quot;, &quot;ADDinput-postfix&quot;, &quot;ADDselect-box&quot;, &quot;ADDtextarea&quot;, &quot;ADDright-input-inline&quot;, &quot;ADDfieldset&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDright-input-inline" value="&lt;div class=&quot;row&quot;&gt;&#10;    &lt;div class=&quot;small-$NBC$&quot;&gt;&#10;        &lt;div class=&quot;row&quot;&gt;&#10;            &lt;div class=&quot;small-3 columns&quot;&gt;&#10;                &lt;label for=&quot;right-label&quot; class=&quot;right inline&quot;&gt;$INP$&lt;/label&gt;&#10;            &lt;/div&gt;&#10;            &lt;div class=&quot;small-9 columns&quot;&gt;&#10;                &lt;input type=&quot;text&quot; id=&quot;right-label&quot; placeholder=&quot;$PLACH$&quot;&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;$CHOICE$$END$&#10;" description="right input label item Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="NBC" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="INP" expression="&quot;Input Label&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="PLACH" expression="&quot;Placeholder&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CHOICE" expression="enum(&quot;ADDinput&quot;, &quot;ADDinput-postfix&quot;, &quot;ADDselect-box&quot;, &quot;ADDtextarea&quot;, &quot;ADDright-input-inline&quot;, &quot;ADDfieldset&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDfieldset" value="&lt;fieldset&gt;&#10;    &lt;legend&gt;$FIELST$&lt;/legend&gt;&#10;        &lt;label&gt;$INP$&#10;            &lt;input type=&quot;text&quot; placeholder=&quot;$PLACH$&quot;&gt;&#10;        &lt;/label&gt;&#10;&lt;/fieldset&gt;&#10;$CHOICE$$END$" description="fieldset Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="FIELST" expression="&quot;Fieldset Legend&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="INP" expression="&quot;Input Label&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="PLACH" expression="&quot;Inputs and other form elements go inside...&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CHOICE" expression="enum(&quot;ADDinput&quot;, &quot;ADDinput-postfix&quot;, &quot;ADDselect-box&quot;, &quot;ADDtextarea&quot;, &quot;ADDright-input-inline&quot;, &quot;ADDfieldset&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-focb" value="&lt;div class=&quot;switch$DEC$$OPT$&quot;&gt;&#10;    &lt;input id=&quot;CheckboxSwitch&quot; type=&quot;checkbox&quot;&gt;&#10;    &lt;label for=&quot;CheckboxSwitch&quot;&gt;&lt;/label&gt;&#10;&lt;/div&gt;" description="checkboxswitch  foundation" toReformat="false" toShortenFQNames="true">
+    <variable name="DEC" expression="enum(&quot;&quot;, &quot; radius&quot;, &quot; round&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT" expression="enum(&quot;&quot;, &quot; tiny&quot;, &quot; small&quot;, &quot; large&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-fors" value="&lt;div class=&quot;switch$DEC1$$OPT1$&quot;&gt;&#10;    &lt;input id=&quot;RadioSwitch1&quot; type=&quot;radio&quot; name=&quot;Group&quot;&gt;&#10;    &lt;label for=&quot;RadioSwitch1&quot;&gt;&lt;/label&gt;&#10;&lt;/div&gt;&#10;&lt;div class=&quot;switch$DEC2$$OPT2$&quot;&gt;&#10;    &lt;input id=&quot;RadioSwitch2&quot; type=&quot;radio&quot; name=&quot;Group&quot;&gt;&#10;    &lt;label for=&quot;RadioSwitch2&quot;&gt;&lt;/label&gt;&#10;&lt;/div&gt;" description="radioswitch  foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="DEC1" expression="enum(&quot;&quot;, &quot; radius&quot;, &quot; round&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT1" expression="enum(&quot;&quot;, &quot; tiny&quot;, &quot; small&quot;, &quot; large&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="DEC2" expression="enum(&quot;&quot;, &quot; radius&quot;, &quot; round&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT2" expression="enum(&quot;&quot;, &quot; tiny&quot;, &quot; small&quot;, &quot; large&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>>
+    </template>
+    <template name="zf-foab" value="&lt;form data-abide&gt;&#10;    $CHOICE$$POST$&#10;&lt;/form&gt;&lt;!-- ADDemail-field ** ADDname-field ** ADDpassword-field **ADDsubmit-button --&gt;" description="abide form Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="CHOICE" expression="enum(&quot;ADDname-field&quot;, &quot;ADDemail-field&quot;, &quot;ADDpassword-field&quot;, &quot;ADDsubmit-button&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="POST" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDemail-field" value="&lt;div class=&quot;email-field&quot;&gt;&#10;    &lt;label&gt;Email &lt;small&gt;required&lt;/small&gt;&#10;        &lt;input type=&quot;email&quot; required&gt;&#10;    &lt;/label&gt;&#10;        &lt;small class=&quot;error&quot;&gt;An email address is required.&lt;/small&gt;&#10;&lt;/div&gt;&#10;$CHOICE$$END$" description="email-field Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="CHOICE" expression="enum(&quot;ADDname-field&quot;, &quot;ADDemail-field&quot;, &quot;ADDpassword-field&quot;, &quot;ADDsubmit-button&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDname-field" value="&lt;div class=&quot;name-field&quot; &gt;&#10;    &lt;label&gt;Your name &lt;small&gt;required&lt;/small&gt;&#10;        &lt;input type=&quot;text&quot; required pattern=&quot;[a-zA-Z]+&quot;&gt;&#10;    &lt;/label&gt;&#10;    &lt;small class=&quot;error&quot;&gt;Name is required and must be a string.&lt;/small&gt;&#10;&lt;/div&gt;&#10;$CHOICE$$END$" description="namel-field Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="CHOICE" expression="enum(&quot;ADDsubmit-button&quot;, &quot;ADDname-field&quot;, &quot;ADDemail-field&quot;, &quot;ADDpassword-field&quot; )" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDpassword-field" value="&lt;div class=&quot;password-field&quot;&gt;&#10;    &lt;label&gt;Password &lt;small&gt;required&lt;/small&gt;&#10;        &lt;input type=&quot;password&quot; id=&quot;password&quot; required pattern=&quot;[a-zA-Z]+&quot;&gt;&#10;    &lt;/label&gt;&#10;    &lt;small class=&quot;error&quot;&gt;Your password must match the requirements&lt;/small&gt;&#10;&lt;/div&gt;&#10;&lt;div class=&quot;password-confirmation-field&quot;&gt;&#10;    &lt;label&gt;Confirm Password &lt;small&gt;required&lt;/small&gt;&#10;        &lt;input type=&quot;password&quot; required pattern=&quot;[a-zA-Z]+&quot; data-equalto=&quot;password&quot;&gt;&#10;    &lt;/label&gt;&#10;        &lt;small class=&quot;error&quot;&gt;The password did not match&lt;/small&gt;&#10;&lt;/div&gt;&#10;$CHOICE$$END$" description="passworfield-field (equal-to) Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="CHOICE" expression="enum(&quot;ADDsubmit-button&quot;, &quot;ADDname-field&quot;, &quot;ADDemail-field&quot;, &quot;ADDpassword-field&quot; )" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDsubmit-button" value="&lt;button class=&quot;button$TYPE$$PLACE$$STYLE$&quot; type=&quot;submit&quot;&gt;$TEXTE$&lt;/button&gt;&#10;$CHOICE$$END$" description="submit button Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="TYPE" expression="enum(&quot;&quot;, &quot; tiny&quot;, &quot; small&quot;, &quot; large&quot;, &quot; expand&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="PLACE" expression="enum(&quot;&quot;, &quot; right&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="STYLE" expression="enum(&quot;&quot;, &quot; round&quot;, &quot; radius&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="TEXTE" expression="&quot;Submit&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CHOICE" expression="enum(&quot;ADDemail-field&quot;, &quot;ADDname-field&quot;, &quot;ADDpassword-field&quot;, &quot;ADDsubmit-button&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-fosl" value="&lt;div class=&quot;range-slider$DEC$&quot; data-slider&gt;&#10;  &lt;span class=&quot;range-slider-handle&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;range-slider-active-segment&quot;&gt;&lt;/span&gt;&#10;  &lt;input type=&quot;hidden&quot;&gt;&#10;&lt;/div&gt;" description="range slider  foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="DEC" expression="enum(&quot;&quot;, &quot; radius&quot;, &quot; round&quot;, &quot; disabled&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
 
     <!-- END FORM GROUP -->
     
