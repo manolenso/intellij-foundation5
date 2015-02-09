@@ -181,14 +181,14 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | add orbit slider item            |  ADDslider-item                |
 | add lightbox item                |  ADDlightbox-item              |
 | add thumbnail item               |  ADDthumbnail-item             |
-| add email field                  |  AADemail-field                |
-| add name field                   |  AADname-field                 |
-| add password field   (equal to)  |  AADpassword-field             |
-| add submit button                |  AADsubmit-button              |
-| add fieldset                     |  AADfieldset                   |
-| add input                        |  AADinput                      |
-| add input postfix                |  AADinput-postfix              |
-| add right input inline           |  AADright-input-label          |
+| add email field                  |  ADDemail-field                |
+| add name field                   |  ADDname-field                 |
+| add password field   (equal to)  |  ADDpassword-field             |
+| add submit button                |  ADDsubmit-button              |
+| add fieldset                     |  ADDfieldset                   |
+| add input                        |  ADDinput                      |
+| add input postfix                |  ADDinput-postfix              |
+| add right input inline           |  ADDright-input-label          |
 | add select box                   |  ADDselect-box                 |
 | add textarea                     |  ADDtextarea                   |
 
