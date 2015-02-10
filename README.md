@@ -149,7 +149,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Joyride   |  X `JS`   |
 
 
-### CONTENT (available soon.. update v1.6)
+### CONTENT
 
 | Component:group zf-ct `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
