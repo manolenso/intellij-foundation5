@@ -149,17 +149,17 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Joyride   |  X `JS`   |
 
 
-### CONTENT
+### CONTENT (available soon.. update v1.6)
 
 | Component:group zf-ct `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
-| Dropdowns  |  X`JS` |
-| Pricing Tables | X `JS`   |
-| Progress Bars  | X `JS` |
-| Tables    |   X    |
-| Accordion    |  X `JS`    |
-| Tabs  |   X  `JS`    |
-| Equalizer  |   X  `JS`    |
+| Dropdowns                        |   zf-ctdl              `JS`    |
+| Pricing Tables                   |   zf-ctpt              `JS`    |
+| Progress Bars                    |   zf-ctpb              `JS`    |
+| Tables(need:[Emmet](http://bit.ly/1DzHjaT)|   zf-cttb             |
+| Accordion                        |   zf-ctac              `JS`    |
+| Tabs                             |   zf-cttbs             `JS`    |
+| Equalizer                        |   zf-cteq              `JS`    |
 
 
 ### MISCELLANEOUS
@@ -191,6 +191,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | add right input inline           |  ADDright-input-label          |
 | add select box                   |  ADDselect-box                 |
 | add textarea                     |  ADDtextarea                   |
+| add accordion                    |  ADDaccordion-item             |
 
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
