@@ -800,7 +800,125 @@
     <!-- END CALLOUTS&PROMPTS GROUP -->
 
     <!-- CONTENT GROUP -->
-
+    <template name="zf-ctdl" value="&lt;a href=&quot;#&quot; data-options=&quot;$DIRECT$&quot; data-dropdown=&quot;$TYPE$&quot; class=&quot;button&quot;&gt;$TEXT$ &amp;raquo;&lt;/a&gt;&#10;&lt;ul id=&quot;$TYPE$&quot; class=&quot;$SIZE$ f-dropdown&quot; data-dropdown-content$AUTOCLOSE$&gt;&#10;    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$LINK1$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$LINK2$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$LINK3$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;$END$" description="dropdown link button Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="DIRECT" expression="enum(&quot;&quot;, &quot;align:top&quot;, &quot;align:left&quot;, &quot;align:right&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="TYPE" expression="enum(&quot;drop&quot;, &quot;autoclose&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="TEXT" expression="&quot;Button-Title&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="SIZE" expression="enum(&quot;tiny&quot;, &quot;small&quot;, &quot;medium&quot;, &quot;large&quot;, &quot;mega&quot;, &quot;content&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="AUTOCLOSE" expression="enum(&quot;&quot;, &quot; tabindex=\&quot;-1\&quot; aria-hidden=\&quot;true\&quot; aria-autoclose=\&quot;false\&quot; tabindex=\&quot;-1\&quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="LINK1" expression="&quot;Link-1&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="LINK2" expression="&quot;Link-2&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="LINK3" expression="&quot;Link-3&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-ctpt" value="&lt;ul class=&quot;pricing-table&quot;&gt;&#10;  &lt;li class=&quot;title&quot;&gt;$TITLE$&lt;/li&gt;&#10;  &lt;li class=&quot;price&quot;&gt;$PRICE$&lt;/li&gt;&#10;  &lt;li class=&quot;description&quot;&gt;$DESC$&lt;/li&gt;&#10;  &lt;li class=&quot;bullet-item&quot;&gt;$ITEM1$&lt;/li&gt;&#10;  &lt;li class=&quot;bullet-item&quot;&gt;$ITEM2$&lt;/li&gt;&#10;  &lt;li class=&quot;bullet-item&quot;&gt;$ITEM3$&lt;/li&gt;&#10;  &lt;li class=&quot;cta-button&quot;&gt;&lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;$BUTTON$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;$END$" description="pricing table Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="TITLE" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="PRICE" expression="&quot;Price&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="DESC" expression="&quot;An awesome description&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="ITEM1" expression="&quot;bullet-item-1&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="ITEM2" expression="&quot;bullet-item-2&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="ITEM3" expression="&quot;bullet-item-3&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="BUTTON" expression="&quot;Buy Now&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-ctpb" value="&lt;div class=&quot;progress$SIZE$$COLOR$$TYPE$&quot;&gt;&#10;    &lt;span class=&quot;meter&quot; style=&quot;width: [1 - 100]%&quot;&gt;&lt;/span&gt;&#10;&lt;/div&gt;&#10;$END$" description="progress bar Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="SIZE" expression="enum(&quot;&quot;, &quot; small&quot;, &quot; large&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="COLOR" expression="enum(&quot;&quot;, &quot; secondary&quot;,  &quot; alert&quot;, &quot; success&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="TYPE" expression="enum(&quot;&quot;, &quot; radius&quot;, &quot; round&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-cttb" value="table&gt;(thead[summary=&quot;&quot;]&gt;tr&gt;th[width=&quot;&quot;]*$NBTH$)+tbody&gt;tr*$NBTR1$&gt;td*$NBTH$$END$&#10;&#10;&#10;" description="tables Foundation (using emmet)" toReformat="false" toShortenFQNames="true">
+        <variable name="NBTR1" expression="&quot;Nb-Lines-?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="NBTH" expression="&quot;Nb-Columns-?&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-ctac" value="&lt;ul class=&quot;accordion&quot; data-accordion&gt;&#10;    &lt;li class=&quot;accordion-navigation&quot;&gt;&#10;        &lt;a href=&quot;#panel$PANEL$&quot;&gt;$ACCORDION$&lt;/a&gt;&#10;        &lt;div id=&quot;panel$PANEL$&quot; class=&quot;content active&quot;&gt;&#10;            $CONTENT$&#10;        &lt;/div&gt;&#10;    &lt;/li&gt;&#10;    $ADD$$END$&#10;&lt;/ul&gt;" description="accordion Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="PANEL" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="ACCORDION" expression="&quot;Accordion Label&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CONTENT" expression="&quot;Content Active&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="ADD" expression="&quot;ADDaccordion-item&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDaccordion-item" value="&lt;li class=&quot;accordion-navigation&quot;&gt;&#10;    &lt;a href=&quot;#panel$PANEL$&quot;&gt;$ACCORDION$&lt;/a&gt;&#10;    &lt;div id=&quot;panel$PANEL$&quot; class=&quot;content active&quot;&gt;&#10;        $CONTENT$&#10;    &lt;/div&gt;&#10;&lt;/li&gt;&#10;$ADD$" description="ADD accordion Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="PANEL" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="ACCORDION" expression="&quot;Accordion Label&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CONTENT" expression="&quot;Content Active&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="ADD" expression="&quot;ADDaccordion-item&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-ctbs" value="(ul.tabs[data-tab]&gt;li.tab-title*$TAB$&gt;a{$TITLE$ $})+div.tabs-content&gt;.content[id=&quot;panel$&quot;]*$TAB$&gt;p{Panel content $ Goes Here!}$END$" description="tabs Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="TAB" expression="&quot;Nb Tabs?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="TITLE" expression="&quot;Titles Tabs?&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-cteq" value="&lt;div class=&quot;row&quot; data-equalizer&gt;&#10;    &lt;div class=&quot;large-$LARGE$ columns $TYPE$&quot; data-equalizer-watch&gt;&#10;        $CONT$&#10;    &lt;/div&gt;&#10;    $ADD$$END$&#10;&lt;/div&gt;&#10;" description="equalizer Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="LARGE" expression="&quot;Nb?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="TYPE" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CONT" expression="&quot;&lt;!-- content goes here --&gt;&quot;" defaultValue="" alwaysStopAt="false" />
+        <variable name="ADD" expression="&quot;ADDequalizer-item&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDequalizer-item" value="&lt;div class=&quot;large-$LARGE$ columns $TYPE$&quot; data-equalizer-watch&gt;&#10;    $CONT$&#10;&lt;/div&gt;&#10;$ADD$" description="ADD equlizer Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="LARGE" expression="&quot;Nb?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="TYPE" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CONT" expression="&quot;&lt;!-- content goes here --&gt;&quot;" defaultValue="" alwaysStopAt="false" />
+        <variable name="ADD" expression="&quot;ADDequalizer-item&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
     <!-- END CONTENT GROUP -->
 
     <!-- MISCELLANEOUS GROUP -->

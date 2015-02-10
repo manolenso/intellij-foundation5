@@ -156,9 +156,9 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Dropdowns                        |   zf-ctdl              `JS`    |
 | Pricing Tables                   |   zf-ctpt              `JS`    |
 | Progress Bars                    |   zf-ctpb              `JS`    |
-| Tables(need:[Emmet](http://bit.ly/1DzHjaT)|   zf-cttb             |
+| Tables with[Emmet plugin](http://bit.ly/1DzHjaT)|   zf-cttb       |
 | Accordion                        |   zf-ctac              `JS`    |
-| Tabs                             |   zf-cttbs             `JS`    |
+| Tabs with[Emmet plugin](http://bit.ly/1DzHjaT)|   zf-ctbs `JS`    |
 | Equalizer                        |   zf-cteq              `JS`    |
 
 
@@ -192,6 +192,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | add select box                   |  ADDselect-box                 |
 | add textarea                     |  ADDtextarea                   |
 | add accordion                    |  ADDaccordion-item             |
+| add equalizer                    |  ADDequalizer-item             |
 
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
