@@ -23,6 +23,10 @@ An IntelliJ plugin containing Zurb foundation 5 live templates! This plugin work
 
 ### Intallation
 
+**Update v 1.6**
+_for some of Content components I used Awesome_ [Emmet plugin](http://bit.ly/1DzHjaT/ "Emmet Everywhere")
+_you must install Emmet if you have not yet!._
+
 To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 1) `File > Settings > Plugins` and click on the `Browse repositories` button.
@@ -30,6 +34,8 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 2) Search for `Zurb Foundation 5` then right click and select `Download plugin`.
 
 3) Finally hit the `Apply` button, agree to restart your IDE and you're all done!
+
+4
 
 ## contents
 
@@ -42,7 +48,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 - [BUTTONS](#buttons)
 - [TYPOGRAPHY](#typography)
 - [CALLOUTS And PROMPTS](#calloutsAndprompts)
-- [CONTENT](#content)
+- [CONTENT](#CONTENT)
 - [MISCELLANEOUS](#miscellaneous)
 
 
@@ -115,7 +121,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 |Abide Validation                  |   zf-foab              `JS`    |
 
 
-###BUTTONS
+### BUTTONS
 
 | Component:group zf-bt `Ctrl + Space`  | Snippet code                   |
 |----------------------------------| :-----------------------------:|
@@ -156,9 +162,9 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Dropdowns                        |   zf-ctdl              `JS`    |
 | Pricing Tables                   |   zf-ctpt              `JS`    |
 | Progress Bars                    |   zf-ctpb              `JS`    |
-| Tables with[Emmet plugin](http://bit.ly/1DzHjaT)|   zf-cttb       |
+| Tables with [Emmet plugin](http://bit.ly/1DzHjaT/ "Emmet Everywhere")|   zf-cttb       |
 | Accordion                        |   zf-ctac              `JS`    |
-| Tabs with[Emmet plugin](http://bit.ly/1DzHjaT)|   zf-ctbs `JS`    |
+| Tabs with [Emmet plugin](http://bit.ly/1DzHjaT/ "Emmet Everywhere")|   zf-ctbs `JS`    |
 | Equalizer                        |   zf-cteq              `JS`    |
 
 
