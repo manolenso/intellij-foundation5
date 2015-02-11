@@ -41,7 +41,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 - [FORMS](#forms)
 - [BUTTONS](#buttons)
 - [TYPOGRAPHY](#typography)
-- [CALLOUTS & PROMPTS](#callouts&prompts)
+- [CALLOUTS And PROMPTS](#calloutsAndprompts)
 - [CONTENT](#content)
 - [MISCELLANEOUS](#miscellaneous)
 
@@ -138,7 +138,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Labels     |       |
 
 
-### CALLOUTS & PROMPTS
+### CALLOUTS And PROMPTS
 
 | Component:group zf-cp `Ctrl + Space` | Snippet code                   |
 |----------------------------------| :-----------------------------:|
