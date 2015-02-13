@@ -123,7 +123,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### BUTTONS
 
-| Component:group zf-bt `Ctrl + Space`  | Snippet code                   |
+| Component:group zf-bt `Ctrl + Space`  | Snippet code              |
 |----------------------------------| :-----------------------------:|
 | button basic                     |   zf-bt                        |
 | button sizing                    |   zf-bts                       |
@@ -139,20 +139,20 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 ### TYPOGRAPHY
 
-| Component:group zf-tx `Ctrl + Space` | Snippet code                   |
+| Component:group zf-tx `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
 | Labels     |       |
 
 
 ### CALLOUTS And PROMPTS
 
-| Component:group zf-cp `Ctrl + Space` | Snippet code                   |
+| Component:group zf-cp `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
-| Reveal Modal   | X `JS`    |
-| Alerts     |  X `JS`   |
-| Panels     |  X  |
-| Tooltips  | X `JS`   |
-| Joyride   |  X `JS`   |
+| Reveal Modal                     |  zf-cprm                `JS`   |
+| Alerts                           |  zf-cpal                `JS`   |
+| Panels                           |  zf-cppn                       |
+| Tooltips                         |  zf-cptt                `JS`   |
+| Joyride                          |  zf-cpjr                `JS`   |
 
 
 ### CONTENT
@@ -199,6 +199,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | add textarea                     |  ADDtextarea                   |
 | add accordion                    |  ADDaccordion-item             |
 | add equalizer                    |  ADDequalizer-item             |
-
+| add joyride                      |  ADDjoyride-item               |
+| add joyride End                  |  ADDjoyride-itemend            |
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)

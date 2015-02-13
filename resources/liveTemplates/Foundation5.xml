@@ -796,7 +796,101 @@
     <!-- END TYPOGRAPHY GROUP -->
 
     <!-- CALLOUTS&PROMPTS GROUP -->
-
+    <template name="zf-cpm" value="&lt;!-- Triggers the $NAME$ modals --&gt;&#10;&lt;a href=&quot;#&quot; data-reveal-id=&quot;$NAME$Modal&quot; class=&quot;$OPT$&quot;&gt;$DECOR$&amp;hellip;&lt;/a&gt;&#10;&lt;!-- Reveal $NAME$ Modals begin --&gt;&#10;&lt;div id=&quot;$NAME$Modal&quot; class=&quot;reveal-modal$OPTIONS$&quot; data-reveal&gt;&#10;    &lt;h2&gt;$TITLE$&lt;/h2&gt;&#10;        $EDIT$&#10;        &lt;a class=&quot;close-reveal-modal&quot;&gt;&amp;#215;&lt;/a&gt;&#10;&lt;/div&gt;&#10;&lt;!-- Reveal $NAME$ Modals end --&gt;&#10;$END$" description="reveal modal Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="&quot;Modal-Name?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPT" expression="enum(&quot;button&quot;, &quot;button tiny&quot;, &quot;button small&quot;, &quot;button large&quot;, &quot;button expand&quot;, &quot;button round&quot;, &quot;button radius&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="DECOR" expression="&quot;Button Label?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="OPTIONS" expression="enum(&quot;&quot;, &quot; tiny&quot;, &quot; small&quot;, &quot; medium&quot;, &quot; large&quot;, &quot; xlarge&quot;, &quot; full&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="TITLE" expression="&quot;Modal Title&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="EDIT" expression="&quot;&lt;!-- Content goes Here! --&gt;&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-cpal" value="&lt;div id=&quot;mainAlert1&quot; data-alert class=&quot;alert-box$STYLE$$DEC$&quot; tabindex=&quot;0&quot; aria-live=&quot;assertive&quot; role=&quot;dialogalert&quot;&gt;&#10;  $CONTENT$&#10;  &lt;button href=&quot;#&quot; tabindex=&quot;0&quot; class=&quot;close&quot; aria-label=&quot;Close Alert&quot;&gt;&amp;times;&lt;/button&gt;&#10;&lt;/div&gt;&#10;$END$" description="alerts Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="STYLE" expression="enum(&quot;&quot;, &quot; succes&quot;, &quot; warning&quot;, &quot; info&quot;, &quot; alert&quot;, &quot; secondary&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="DEC" expression="enum(&quot;&quot;, &quot; radius&quot;, &quot; round&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="CONTENT" expression="&quot;&lt;!-- Your content goes here --&gt;&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-cppn" value="&lt;div class=&quot;panel$OPT$&quot;&gt;&#10;        &lt;$TAG1$&gt;$TITLE$&lt;/$TAG1$&gt;&#10;        &lt;p&gt;$CONTENT$&lt;/p&gt;&#10;&lt;/div&gt;&#10;$END$" description="panels Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="OPT" expression="enum(&quot;&quot;, &quot; callout radius&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="TAG1" expression="&quot;Tag_?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="TITLE" expression="&quot;&lt;!-- Title ?--&gt;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CONTENT" expression="&quot;&lt;!-- Main content --&gt;&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-cptt" value="&lt;span data-tooltip aria-haspopup=&quot;true&quot; class=&quot;has-tip$OPTION$$DEC$&quot; $DATAOPT$title=&quot;$TEXTE$&quot;&gt;$CLIPBOARD$&lt;/span&gt;&#10;$END$" description="tooltips (with clipboard content!) Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+        <variable name="OPTION" expression="enum(&quot;&quot;, &quot; tip-top&quot;, &quot; tip-bottom&quot;, &quot; tip-left&quot;, &quot; tip-right&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="DEC" expression="enum(&quot;&quot;, &quot; radius&quot;, &quot; round&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="DATAOPT" expression="enum(&quot;&quot;, &quot;data-options=\&quot;show_on:large\&quot; &quot;, &quot;data-options=\&quot;show_on:medium &quot;, &quot;data-options=\&quot;show_on:small\&quot; &quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="TEXTE" expression="&quot;&lt;!-- Tooltips Text Here --&gt;&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="zf-cpjr" value="&lt;!-- At the bottom of your page but inside of the body tag --&gt;&#10;&lt;ol class=&quot;joyride-list&quot; data-joyride&gt;&#10;    &lt;li data-id=&quot;$STOPID$&quot; data-text=&quot;Next&quot; data-options=&quot;tip_location:top; prev_button:false&quot;&gt;&#10;        &lt;h3&gt;$TITLE$&lt;/h3&gt;&lt;!-- Joyride id=&quot;$STOPID$&quot; --&gt;&#10;        &lt;p&gt;$EDIT$&lt;/p&gt;&#10;    &lt;/li&gt;&#10;    $ADD$$BACK$&#10;&lt;/ol&gt;&#10;$END$" description="joyride Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="STOPID" expression="&quot;Stop_ID?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="TITLE" expression="&quot;&lt;!-- Edit Title Joyride --&gt;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="EDIT" expression="&quot;&lt;!-- Edit Joyride Tex --&gt;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="ADD" expression="&quot;ADDjoyride-item&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="BACK" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDjoyride-item" value="&lt;li data-id=&quot;$STOPID$&quot; data-button=&quot;Next&quot; data-prev-text=&quot;Prev&quot; data-options=&quot;tip_location:$POS$;tip_animation:$ANIM$&quot;&gt;&#10;&lt;h3&gt;$TITLE$&lt;/h3&gt;&lt;!-- Joyride id=&quot;$STOPID$&quot; --&gt;&#10;&lt;p&gt;$EDIT$&lt;/p&gt;&#10;&lt;/li&gt;&#10;$ADD$$END$" description="ADD joyride item Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="STOPID" expression="&quot;Stop_ID?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="POS" expression="enum(&quot; top&quot;, &quot; bottom&quot;, &quot; left&quot;, &quot; right&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="ANIM" expression="enum(&quot; fade&quot;, &quot; pop&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="TITLE" expression="&quot;&lt;!-- Edit Title Joyride --&gt;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="EDIT" expression="&quot;&lt;!-- Edit Joyride Tex --&gt;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="ADD" expression="&quot;ADDjoyride-item&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="ADDjoyride-itemend" value="&lt;li data-button=&quot;$STOPID$&quot; data-prev-text=&quot;Prev&quot;&gt;&#10;    &lt;h4&gt;$TITLE$&lt;/h4&gt;&lt;!-- End Joyride id=&quot;$STOPID$&quot; --&gt;&#10;    &lt;p&gt;$EDIT$&lt;/p&gt;&#10;&lt;/li&gt;" description="ADD end  joyride item Foundation" toReformat="false" toShortenFQNames="true">
+        <variable name="STOPID" expression="&quot;End_ID?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="TITLE" expression="&quot;&lt;!-- Edit Title Joyride --&gt;&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="EDIT" expression="&quot;&lt;!-- Edit Joyride Tex --&gt;&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
     <!-- END CALLOUTS&PROMPTS GROUP -->
 
     <!-- CONTENT GROUP -->
@@ -882,7 +976,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="zf-ctbs" value="(ul.tabs[data-tab]&gt;li.tab-title*$TAB$&gt;a{$TITLE$ $})+div.tabs-content&gt;.content[id=&quot;panel$&quot;]*$TAB$&gt;p{Panel content $ Goes Here!}$END$" description="tabs Foundation" toReformat="false" toShortenFQNames="true">
+    <template name="zf-ctbs" value="(ul.tabs[data-tab]&gt;li.tab-title*$TAB$&gt;a{$TITLE$ $})+div.tabs-content&gt;.content[id=&quot;panel$&quot;]*$TAB$&gt;p{Panel content $ Goes Here!}$END$" description="tabs Foundation (using emmet)" toReformat="false" toShortenFQNames="true">
         <variable name="TAB" expression="&quot;Nb Tabs?&quot;" defaultValue="" alwaysStopAt="true" />
         <variable name="TITLE" expression="&quot;Titles Tabs?&quot;" defaultValue="" alwaysStopAt="true" />
         <context>
@@ -906,7 +1000,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="ADDequalizer-item" value="&lt;div class=&quot;large-$LARGE$ columns $TYPE$&quot; data-equalizer-watch&gt;&#10;    $CONT$&#10;&lt;/div&gt;&#10;$ADD$" description="ADD equlizer Foundation" toReformat="false" toShortenFQNames="true">
+    <template name="ADDequalizer-item" value="&lt;div class=&quot;large-$LARGE$ columns $TYPE$&quot; data-equalizer-watch&gt;&#10;    $CONT$&#10;&lt;/div&gt;&#10;$ADD$" description="ADD equalizer Foundation" toReformat="false" toShortenFQNames="true">
         <variable name="LARGE" expression="&quot;Nb?&quot;" defaultValue="" alwaysStopAt="true" />
         <variable name="TYPE" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
         <variable name="CONT" expression="&quot;&lt;!-- content goes here --&gt;&quot;" defaultValue="" alwaysStopAt="false" />
