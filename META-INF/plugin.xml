@@ -1,7 +1,7 @@
 <idea-plugin version="2" url="https://github.com/manolenso/intellij-foundation5">
   <id>com.manolenso.intellij.foundation5</id>
   <name>Zurb Foundation 5</name>
-  <version>1.7</version>
+  <version>1.8</version>
   <vendor url="https://github.com/manolenso/intellij-foundation5">Manolenso</vendor>
 
   <description><![CDATA[
@@ -17,6 +17,7 @@
 
   <change-notes><![CDATA[
       <br>
+      1.8 added typography and rewrite some structure components<br />
       1.7 added callouts & prompts components<br />
       1.6 added content components, some of them use Emmet plugin!<br />
       1.5 added forms components<br />

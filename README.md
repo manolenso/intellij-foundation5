@@ -49,6 +49,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 - [TYPOGRAPHY](#typography)
 - [CALLOUTS And PROMPTS](#calloutsAndprompts)
 - [CONTENT](#CONTENT)
+- [UTILITY](#utility)
 - [MISCELLANEOUS](#miscellaneous)
 
 
@@ -70,7 +71,8 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 | Component:group zf-st `Ctrl + Space`| Snippet code                |
 |----------------------------------| :-----------------------------:|
-| row                              |   zf-stro                      |
+| row                              |   zf-strow                     |
+| basic row                        |   zf-stro                      |
 | small-? large-? columns          |   zf-stslc                     |
 | small-? medium- large-? columns  |   zf-stsmlc                    |
 | small-? columns                  |   zf-stsc                      |
@@ -98,7 +100,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Magellan                         |   zf-nvmg               `JS`   |
 | Sub Nav           Accessibility  |   zf-nvsbn                     |
 | Breadcrumbs       Accessibility  |   zf-nvbrc                     |
-| Pagination        Accessibility  |   zf-pg                        |
+| Pagination        Accessibility  |   zf-nvpg                        |
 
 
 ### MEDIA
@@ -106,7 +108,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Component:group zf-md `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
 |Orbit Slider                      |   zf-mdos              `JS`    |
-|Thumbnails                        |   zf-mtb                       |
+|Thumbnails                        |   zf-md                      |
 |Clearing Lightbox                 |   zf-mdcl              `JS`    |
 |Flex Video                        |   zf-mdfv                      |
 
@@ -141,7 +143,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 | Component:group zf-tx `Ctrl + Space` | Snippet code               |
 |----------------------------------| :-----------------------------:|
-| Labels     |       |
+| Labels (with clipboard content!) |    zf-tylb                     |
 
 
 ### CALLOUTS And PROMPTS
@@ -151,7 +153,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Reveal Modal                     |  zf-cprm                `JS`   |
 | Alerts                           |  zf-cpal                `JS`   |
 | Panels                           |  zf-cppn                       |
-| Tooltips                         |  zf-cptt                `JS`   |
+| Tooltips(with clipboard content!)|  zf-cptt                `JS`   |
 | Joyride                          |  zf-cpjr                `JS`   |
 
 
@@ -168,11 +170,21 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Equalizer                        |   zf-cteq              `JS`    |
 
 
+### UTILITY
+
+| Utility                          | Trigger                        |
+|----------------------------------| :-----------------------------:|
+| text align left & options        |  txtl                          |
+| text align center & options      |  txtc                          |
+| text align justify & options     |  txtj                          |
+| text align right & options       |  txtr                          |
+              
+
 ### MISCELLANEOUS
 
 | Component                        | Snippet code                   |
 |----------------------------------| :-----------------------------:|
-| CDN js.min + js.min lib          |   zf-jinit                     |
+| CDN jquery, js.min + js.min lib  |   zf-jinit                     |
 |  + initialize Foundation         |                                |
 | Bower Html Template              |   zf-bower                     |
 | 283  Foundation Icon Fonts 3     |   fi-                          |
@@ -201,5 +213,9 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | add equalizer                    |  ADDequalizer-item             |
 | add joyride                      |  ADDjoyride-item               |
 | add joyride End                  |  ADDjoyride-itemend            |
+| add small column                 |  ADDsmall-column-item             |
+| add large column                 |  ADDlarge-column-item             |
+| add medium column                |  ADDmedium-column-item               |
+| add small medium large column    |  ADDsmall-medium-large-column-item  |
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
