@@ -217,5 +217,5 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | add large column                 |  ADDlarge-column-item             |
 | add medium column                |  ADDmedium-column-item               |
 | add small medium large column    |  ADDsmall-medium-large-column-item  |
-
+| add Vcard                        |  ADDvcard-item                 |
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
