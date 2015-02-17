@@ -47,8 +47,8 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 - [FORMS](#forms)
 - [BUTTONS](#buttons)
 - [TYPOGRAPHY](#typography)
-- [CALLOUTS And PROMPTS](#calloutsAndprompts)
-- [CONTENT](#CONTENT)
+- [CALLOUTS And PROMPTS](#callouts-and-prompts)
+- [CONTENT](#content)
 - [UTILITY](#utility)
 - [MISCELLANEOUS](#miscellaneous)
 
