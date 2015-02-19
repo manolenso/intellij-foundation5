@@ -8,567 +8,132 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css"/>
 </head>
 <body>
+<style>
+    body{
+        background-color: #778899;
+    }
+</style>
 
-<div class="contain-to-grid">
-  <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-        <li class="name">
-            <h1><a href="#">Intellij JetBrains Zurb Foundation 5 plugin</a></h1>
-        </li>
-        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+      </section>
 
-    <section class="top-bar-section">
-        <!-- Right Nav Section -->
+      <section class="middle tab-bar-section">
+        <h1 class="title">Intellij JetBrains Zurb Foundation 5 plugin</h1>
+      </section>
 
-        <ul class="right">
-            <li class="has-dropdown">
-                <a href="#">Components</a>
-                <ul class="dropdown">
-                    <li><a href="#cdn">CDN</a></li>
-                    <li><a href="#structure">STRUCTURE</a></li>
-                    <li><a href="#navigation">NAVIGATION</a></li>
-                    <li><a href="#media">MEDIA</a></li>
-                    <li><a href="#forms">FORMS</a></li>
-                    <li><a href="#buttons">BUTTONS</a></li>
-                    <li><a href="#typography">TYPOGRAPHY</a></li>
-                    <li><a href="#callouts-and-prompts">CALLOUTS And PROMPTS</a></li>
-                    <li><a href="#content">CONTENT</a></li>
-                    <li><a href="#utility">UTILITY</a></li>
-                    <li><a href="#miscellaneous">MISCELLANEOUS</a></li>
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+          <i><label>COMPONENTS</label></i>
+          <li><a href="#cdn">CDN</a></li>
+          <li><a href="#structure">STRUCTURE</a></li>
+          <li><a href="#navigation">NAVIGATION</a></li>
+          <li><a href="#media">MEDIA</a></li>
+          <li><a href="#forms">FORMS</a></li>
+          <li><a href="#buttons">BUTTONS</a></li>
+          <li><a href="#typography">TYPOGRAPHY</a></li>
+          <li><a href="#callouts-and-prompts">CALLOUTS And PROMPTS</a></li>
+          <li><a href="#content">CONTENT</a></li>
+          <li><a href="#utility">UTILITY</a></li>
+          <li><a href="#miscellaneous">MISCELLANEOUS</a></li>
+          <li><a href="#inception">INCEPTION</a></li>
+      </ul>
+    </aside>
+
+    <section class="main-section">
+        <div class="row">
+            <div class="large-12 columns">
+
+                <ul class="accordion" data-accordion>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#panelcdn"><h4>CDN&#x2935;</h4></a>
+                        <div id="panelcdn" class="content">
+                            <img src="screencasts/cdn.png" alt="cdn"/>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#panelstructure"><h4>STRUCTURE&#x2935;</h4></a>
+                        <div id="panelstructure" class="content">
+                            <img src="screencasts/structure.png" alt="structure"/>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#panelnavigation"><h4>NAVIGATION&#x2935;</h4></a>
+                        <div id="panelnavigation" class="content">
+                            <img src="screencasts/navigation.png" alt="navigation"/>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#panelmedia"><h4>MEDIA&#x2935;</h4></a>
+                        <div id="panelmedia" class="content">
+                            <img src="screencasts/media.png" alt="media"/>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#panelforms"><h4>FORMS&#x2935;</h4></a>
+                        <div id="panelforms" class="content">
+                            <img src="screencasts/forms.png" alt="forms"/>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#panelbuttons"><h4>BUTTONS&#x2935;</h4></a>
+                        <div id="panelbuttons" class="content">
+                            <img src="screencasts/buttons.png" alt="buttons"/>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#paneltypographie"><h4>TYPOGRAPHY&#x2935;</h4></a>
+                        <div id="paneltypographie" class="content">
+                            <img src="screencasts/typo" alt="typography"/>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#panelcallout-and-prompts"><h4>CALLOUTS And PROMPTS&#x2935;</h4></a>
+                        <div id="panelcallout-and-prompts" class="content">
+                            <img src="screencasts/callouts-and-prompts.png" alt="calloutAndPrompts"/>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#panelcontent"><h4>CONTENT&#x2935;</h4></a>
+                        <div id="panelcontent" class="content">
+                            <img src="screencasts/content.png" alt="content"/>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#panelutility"><h4>UTILITY&#x2935;</h4></a>
+                        <div id="panelutility" class="content">
+                            <img src="screencasts/utility.png" alt="utility"/>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#panelmiscellaneous"><h4>MISCELLANEOUS&#x2935;</h4></a>
+                        <div id="panelmiscellaneous" class="content">
+                            <img src="screencasts/miscellaneous.png" alt="miscellaneous"/>
+                        </div>
+                    </li>
+                    <li class="accordion-navigation">
+                        <a class="text-center" href="#panelinception"><h4>INCEPTION&#x2935;</h4></a>
+                        <div id="panelinception" class="content">
+                            <img src="screencasts/inception.png" alt="inception"/>
+                        </div>
+                    </li>
                 </ul>
-            </li>
-        </ul>
-
+            </div>
+      </div>
     </section>
-  </nav>
-    </div>
+
+  <a class="exit-off-canvas"></a>
+
+
+</div>
 <div class="row">
-    <div class="large-6 columns">
+    <p>Foundation 5 - Intellij Plugin is open-sourced software licenced under the <a class="text-center" href="http://opensource.org/licenses/MIT">MIT:Licence</a></p>
 
-        <h3 class="text-center" id="cdn">CDN</h3>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Component:group zf-cdn <code>Ctrl + Space</code></th>
-                <th>Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>CDN link (CSS or CSS.MIN)</td>
-                <td width="97">zf-cdn-css</td>
-            </tr>
-            <tr>
-                <td>CDN link (ICON or ICON.MIN)</td>
-                <td width="97">zf-cdn-icn</td>
-            </tr>
-            <tr>
-                <td>CDN link (JS  or JS.MIN)</td>
-                <td width="97">zf-cdn-js</td>
-            </tr>
-            <tr>
-                <td>CDN link (JS Library)</td>
-                <td width="97">zf-cdn-lib</td>
-            </tr>
-            <tr>
-                <td>CDN link (JS vendor)</td>
-                <td width="97">zf-cdn-vendor</td>
-            </tr>
-            </tbody>
-        </table>
-        <h3 class="text-center" id="structure">STRUCTURE</h3>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Component:group zf-st <code>Ctrl + Space</code></th>
-                <th>Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>row</td>
-                <td width="97">zf-strow</td>
-            </tr>
-            <tr>
-                <td>basic row</td>
-                <td width="97">zf-stro</td>
-            </tr>
-            <tr>
-                <td>small-? large-? columns</td>
-                <td width="97">zf-stslc</td>
-            </tr>
-            <tr>
-                <td>small-? medium- large-? columns</td>
-                <td width="97">zf-stsmlc</td>
-            </tr>
-            <tr>
-                <td>small-? columns</td>
-                <td width="97">zf-stsc</td>
-            </tr>
-            <tr>
-                <td>medium-? columns</td>
-                <td width="97">zf-stmc</td>
-            </tr>
-            <tr>
-                <td>large-? columns</td>
-                <td width="97">zf-stlc</td>
-            </tr>
-            <tr>
-                <td>Text Alignment let:</td>
-                <td width="97">zf-stl</td>
-            </tr>
-            <tr>
-                <td>Text Alignment right:</td>
-                <td width="97">zf-str</td>
-            </tr>
-            <tr>
-                <td>Text Alignment center:</td>
-                <td width="97">zf-stc</td>
-            </tr>
-            <tr>
-                <td>Text Alignment justify:</td>
-                <td width="97">zf-stj</td>
-            </tr>
-            <tr>
-                <td>Visibility Classes</td>
-                <td width="97">zf-stsh</td>
-            </tr>
-            <tr>
-                <td>Accessibility Classes</td>
-                <td width="97">zf-stvh</td>
-            </tr>
-            <tr>
-                <td>Block Grid Basic</td>
-                <td width="97">zf-stbb</td>
-            </tr>
-            <tr>
-                <td>Block Grid Advanced</td>
-                <td width="97">zf-stba</td>
-            </tr>
-            </tbody>
-        </table>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Inception in (live template)</th>
-                <th>Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>add icon bar</td>
-                <td>ADDicon-item</td>
-            </tr>
-            <tr>
-                <td>add magellan item</td>
-                <td>ADDmagellan-item</td>
-            </tr>
-            <tr>
-                <td>add page navigation</td>
-                <td>ADDpage</td>
-            </tr>
-            <tr>
-                <td>add orbit slider item</td>
-                <td>ADDslider-item</td>
-            </tr>
-            <tr>
-                <td>add lightbox item</td>
-                <td>ADDlightbox-item</td>
-            </tr>
-            <tr>
-                <td>add thumbnail item</td>
-                <td>ADDthumbnail-item</td>
-            </tr>
-            <tr>
-                <td>add email field</td>
-                <td>ADDemail-field</td>
-            </tr>
-            <tr>
-                <td>add name field</td>
-                <td>ADDname-field</td>
-            </tr>
-            <tr>
-                <td>add password field   (equal to)</td>
-                <td>ADDpassword-field</td>
-            </tr>
-            <tr>
-                <td>add submit button</td>
-                <td>ADDsubmit-button</td>
-            </tr>
-            <tr>
-                <td>add fieldset</td>
-                <td>ADDfieldset</td>
-            </tr>
-            <tr>
-                <td>add input</td>
-                <td>ADDinput</td>
-            </tr>
-            <tr>
-                <td>add input postfix</td>
-                <td>ADDinput-postfix</td>
-            </tr>
-            <tr>
-                <td>add right input inline</td>
-                <td>ADDright-input-label</td>
-            </tr>
-            <tr>
-                <td>add select box</td>
-                <td>ADDselect-box</td>
-            </tr>
-            <tr>
-                <td>add textarea</td>
-                <td>ADDtextarea</td>
-            </tr>
-            <tr>
-                <td>add accordion</td>
-                <td>ADDaccordion-item</td>
-            </tr>
-            <tr>
-                <td>add equalizer</td>
-                <td>ADDequalizer-item</td>
-            </tr>
-            <tr>
-                <td>add joyride</td>
-                <td>ADDjoyride-item</td>
-            </tr>
-            <tr>
-                <td>add joyride End</td>
-                <td>ADDjoyride-itemend</td>
-            </tr>
-            <tr>
-                <td>add small column</td>
-                <td>ADDsmall-column-item</td>
-            </tr>
-            <tr>
-                <td>add large column</td>
-                <td>ADDlarge-column-item</td>
-            </tr>
-            <tr>
-                <td>add medium column</td>
-                <td>ADDmedium-column-item</td>
-            </tr>
-            <tr>
-                <td>add small medium large column</td>
-                <td>ADDsmall-medium-large-column-item</td>
-            </tr>
-            <tr>
-                <td>add Vcard</td>
-                <td>ADDvcard-item</td>
-            </tr>
-            </tbody>
-        </table>
-
-        <h3 class="text-center" id="media">MEDIA</h3>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Component:group zf-md <code>Ctrl + Space</code></th>
-                <th>Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Orbit Slider</td>
-                <td width="97">zf-mdos              <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Thumbnails</td>
-                <td width="97">zf-md</td>
-            </tr>
-            <tr>
-                <td>Clearing Lightbox</td>
-                <td width="110">zf-mdcl              <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Flex Video</td>
-                <td width="97">zf-mdfv</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="large-6 columns">
-        <h3 class="text-center" id="navigation">NAVIGATION</h3>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Component:group zf-nv br <code>Ctrl + Space</code></th>
-                <th>Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Off-canvas Basic</td>
-                <td width="110">zf-nvofb              <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Off-canvas Advanced</td>
-                <td width="97">zf-nvofa              <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Top Bar</td>
-                <td width="110">zf-nvtb               <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Top Bar Sticky</td>
-                <td width="97">zf-nvtbs              <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Icon Bar</td>
-                <td width="97">zf-nvib</td>
-            </tr>
-            <tr>
-                <td>Side Nav          Accessibility</td>
-                <td width="97">zf-nvsn</td>
-            </tr>
-            <tr>
-                <td>Magellan</td>
-                <td width="97">zf-nvmg               <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Sub Nav           Accessibility</td>
-                <td width="97">zf-nvsbn</td>
-            </tr>
-            <tr>
-                <td>Breadcrumbs       Accessibility</td>
-                <td width="97">zf-nvbrc</td>
-            </tr>
-            <tr>
-                <td>Pagination        Accessibility</td>
-                <td width="97">zf-nvpg</td>
-            </tr>
-            </tbody>
-        </table>
-
-        <h3 class="text-center" id="forms">FORMS</h3>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Component:group zf-fm <code>Ctrl + Space</code></th>
-                <th>Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Forms</td>
-                <td width="97">zf-form</td>
-            </tr>
-            <tr>
-                <td>RadioSwitch</td>
-                <td width="97">zf-fors</td>
-            </tr>
-            <tr>
-                <td>Checkbox</td>
-                <td width="97">zf-focb</td>
-            </tr>
-            <tr>
-                <td>Range Sliders</td>
-                <td width="97">zf-fosl              <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Abide Validation</td>
-                <td width="97">zf-foab              <code>JS</code></td>
-            </tr>
-            </tbody>
-        </table>
-        <h3 class="text-center" id="buttons">BUTTONS</h3>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Component:group zf-bt <code>Ctrl + Space</code></th>
-                <th>Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>button basic</td>
-                <td width="97">zf-bt</td>
-            </tr>
-            <tr>
-                <td>button sizing</td>
-                <td width="97">zf-bts</td>
-            </tr>
-            <tr>
-                <td>button colors</td>
-                <td width="97">zf-btc</td>
-            </tr>
-            <tr>
-                <td>button group (all options)</td>
-                <td width="97">zf-btg</td>
-            </tr>
-            <tr>
-                <td>button bar group (all options)</td>
-                <td width="97">zf-btbg</td>
-            </tr>
-            <tr>
-                <td>button stack group (all options)</td>
-                <td width="97">zf-btsg</td>
-            </tr>
-            <tr>
-                <td>button split (all options)</td>
-                <td width="97">zf-btsp              <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>button dropdown (all options)</td>
-                <td width="97">zf-btdp              <code>JS</code></td>
-            </tr>
-            </tbody>
-        </table>
-        <h3 class="text-center"  id="typography">TYPOGRAPHY</h3>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Component:group zf-tx <code>Ctrl + Space</code></th>
-                <th>Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Labels (with clipboard content!)</td>
-                <td width="97">zf-tylb</td>
-            </tr>
-            </tbody>
-        </table>
-        <h3 class="text-center" id="callouts-and-prompts">CALLOUTS And PROMPTS</h3>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Component:group zf-cp <code>Ctrl + Space</code></th>
-                <th>Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Reveal Modal</td>
-                <td width="103">zf-cprm               <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Alerts</td>
-                <td width="103">zf-cpal                <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Panels</td>
-                <td width="97">zf-cppn</td>
-            </tr>
-            <tr>
-                <td>Tooltips(with clipboard content!)</td>
-                <td width="97">zf-cptt                <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Joyride</td>
-                <td width="97">zf-cpjr                <code>JS</code></td>
-            </tr>
-            </tbody>
-        </table>
-        <h3 class="text-center"  id="content">CONTENT</h3>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Component:group zf-ct <code>Ctrl + Space</code></th>
-                <th>Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Dropdowns</td>
-                <td width="97">zf-ctdl              <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Pricing Tables</td>
-                <td width="97">zf-ctpt              <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Progress Bars</td>
-                <td width="97">zf-ctpb              <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Tables with <a href="http://bit.ly/1DzHjaT/" title="Emmet Everywhere">Emmet plugin</a></td>
-                <td width="97">zf-cttb</td>
-            </tr>
-            <tr>
-                <td>Accordion</td>
-                <td width="97">zf-ctac              <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Tabs with <a href="http://bit.ly/1DzHjaT/" title="Emmet Everywhere">Emmet plugin</a></td>
-                <td width="97">zf-ctbs <code>JS</code></td>
-            </tr>
-            <tr>
-                <td>Equalizer</td>
-                <td width="97">zf-cteq              <code>JS</code></td>
-            </tr>
-            </tbody>
-        </table>
-        <h3 class="text-center" id="utility">UTILITY</h3>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Utility</th>
-                <th>Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>text align left &amp; options</td>
-                <td>txtl</td>
-            </tr>
-            <tr>
-                <td>text align center &amp; options</td>
-                <td>txtc</td>
-            </tr>
-            <tr>
-                <td>text align justify &amp; options</td>
-                <td>txtj</td>
-            </tr>
-            <tr>
-                <td>text align right &amp; options</td>
-                <td>txtr</td>
-            </tr>
-            </tbody>
-        </table>
-        <h3 class="text-center" id="miscellaneous">MISCELLANEOUS</h3>
-        <table>
-            <thead class="panel callout">
-            <tr>
-                <th width="470">Component</th>
-                <th align="left">Trigger</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>CDN jquery, js.min + js.min lib</td>
-                <td width="97">zf-jinit</td>
-            </tr>
-            <tr>
-                <td>+ initialize Foundation</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Bower Html Template</td>
-                <td width="80">zf-bower</td>
-            </tr>
-            <tr>
-                <td>283  Foundation Icon Fonts 3</td>
-                <td>fi-</td>
-            </tr>
-            <tr>
-                <td>HTTP image placeholder</td>
-                <td>imgp</td>
-            </tr>
-            </tbody>
-        </table>
-
-    </div>
-
-</div><!-- ADDsmall-column-item ** ADDmedium-column-item ** ADDlarge-column-item ** ADDsmall-medium-large-column-item ** End Row  -->
-
-
-<div class="row">
-    <tr>
-        <td>Foundation 5 - Intellij Plugin is open-sourced software licenced under the <a href="http://opensource.org/licenses/MIT">MIT:Licence</a></td>
-
-    </tr>
 </div>
 
 
@@ -579,10 +144,18 @@
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/vendor/jquery.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.accordion.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.topbar.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/vendor/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.accordion.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.tab.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.topbar.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.offcanvas.min.js"></script>
+
+<script>
+    $(document).foundation();
+</script>
 </body>
 </html>
