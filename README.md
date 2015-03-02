@@ -52,11 +52,6 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 - [UTILITY](#utility)
 - [MISCELLANEOUS](#miscellaneous)
 
-
- `Coming soon: X`
-
-
-
 ### CDN
 
 | Component:group zf-cdn `Ctrl + Space`| Snippet code               |
@@ -95,7 +90,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Off-canvas Advanced              |   zf-nvofa              `JS`   |
 | Top Bar                          |   zf-nvtb               `JS`   |
 | Top Bar Sticky                   |   zf-nvtbs              `JS`   |
-| Icon Bar                         |   zf-nvib                      |
+| Icon Bar (Basic, Accessibility, Accessibility+Text|   zf-nvib     |
 | Side Nav          Accessibility  |   zf-nvsn                      |
 | Magellan                         |   zf-nvmg               `JS`   |
 | Sub Nav           Accessibility  |   zf-nvsbn                     |
@@ -127,14 +122,12 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
 | Component:group zf-bt `Ctrl + Space`  | Snippet code              |
 |----------------------------------| :-----------------------------:|
-| button basic                     |   zf-bt                        |
-| button sizing                    |   zf-bts                       |
-| button colors                    |   zf-btc                       |
+| button (all options)             |   zf-btn                       |
 | button group (all options)       |   zf-btg                       |
 | button bar group (all options)   |   zf-btbg                      |
 | button stack group (all options) |   zf-btsg                      |
-| button split (all options)       |   zf-btsp              `JS`    |
-| button dropdown (all options)    |   zf-btdp              `JS`    |
+| button split [Emmet plugin](http://bit.ly/1DzHjaT/ "Emmet Everywhere")|   zf-btsp              `JS`    |
+| button dropdown [Emmet plugin](http://bit.ly/1DzHjaT/ "Emmet Everywhere")|   zf-btdp              `JS`    |
 
 
 
@@ -194,6 +187,8 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Inception in (live template)     | Trigger                        |
 |----------------------------------| :-----------------------------:|
 | add icon bar                     |  ADDicon-item                  |
+| add icon bar accessibility       |  ADDicon-accessibility         |
+| add icon bar accessibility text  |  ADDicon-accessibility-text    |
 | add magellan item                |  ADDmagellan-item              |
 | add page navigation              |  ADDpage                       |
 | add orbit slider item            |  ADDslider-item                |
