@@ -22,10 +22,10 @@ An IntelliJ plugin containing Zurb foundation 5 live templates! This plugin work
 
 
 ### Intallation
-http://bit.ly/1DzHjaT
+
 **Update v 1.6**
-_for some of Content components I used Awesome_ [Emmet plugin](https://plugins.jetbrains.com/plugin/7450?pr=)
-_you must install Emmet if you have not yet!._
+_for some of Content components I used Awesome_ [Emmet plugin](http://bit.ly/1DzHjaT)
+_you should install Emmet Everywhere if you have not yet!._
 
 To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 
@@ -126,8 +126,8 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | button group (all options)       |   zf-btg                       |
 | button bar group (all options)   |   zf-btbg                      |
 | button stack group (all options) |   zf-btsg                      |
-| button split [Emmet plugin](https://plugins.jetbrains.com/plugin/7450?pr=)|   zf-btsp              `JS`    |
-| button dropdown [Emmet plugin](https://plugins.jetbrains.com/plugin/7450?pr=)|   zf-btdp              `JS`    |
+| button split [Emmet plugin](http://bit.ly/1DzHjaT)|   zf-btsp              `JS`    |
+| button dropdown [Emmet plugin](http://bit.ly/1DzHjaT)|   zf-btdp              `JS`    |
 
 
 
@@ -157,9 +157,9 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | Dropdowns                        |   zf-ctdl              `JS`    |
 | Pricing Tables                   |   zf-ctpt              `JS`    |
 | Progress Bars                    |   zf-ctpb              `JS`    |
-| Tables with [Emmet plugin](https://plugins.jetbrains.com/plugin/7450?pr=)|   zf-cttb       |
+| Tables with [Emmet plugin](http://bit.ly/1DzHjaT)|   zf-cttb       |
 | Accordion                        |   zf-ctac              `JS`    |
-| Tabs with [Emmet plugin](https://plugins.jetbrains.com/plugin/7450?pr=)|   zf-ctbs `JS`    |
+| Tabs with [Emmet plugin](http://bit.ly/1DzHjaT)|   zf-ctbs `JS`    |
 | Equalizer                        |   zf-cteq              `JS`    |
 
 
