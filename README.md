@@ -171,7 +171,11 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | text align center & options      |  txtc                          |
 | text align justify & options     |  txtj                          |
 | text align right & options       |  txtr                          |
-              
+| image placeholder  PLACEHOLD.IT  |  imgpi                         |
+| image placeholder PLACEKITTEN    |  imgpk                         |
+| image placeholder LOREMPIXEL     |  imgpl                         |
+| gallery placeholder LOREMPIXEL [Emmet plugin](http://bit.ly/1DzHjaT)|  imgpg  |                         |
+
 
 ### MISCELLANEOUS
 
@@ -181,7 +185,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 |  + initialize Foundation         |                                |
 | Bower Html Template              |   zf-bower                     |
 | 283  Foundation Icon Fonts 3     |   fi-                          |
-| HTTP image placeholder           |   imgp                         |
+
 
 
 | Inception in (live template)     | Trigger                        |

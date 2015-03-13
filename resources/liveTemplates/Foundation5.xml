@@ -1162,6 +1162,54 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
+    <template name="imgpk" value="&lt;img src='http://placekitten.com/g/$WIDTH$/$HEIGHT$' /&gt;$END$&#10;" description="image placeholder  PLACEKITTEN" toReformat="false" toShortenFQNames="true">
+        <variable name="WIDTH" expression="&quot;width-?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="HEIGHT" expression="&quot;height-?&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="imgpl" value="&lt;img src=&quot;http://www.lorempixel.com/$WIDTH$/$HEIGHT$/$CAT$&quot; alt=&quot;$CAT$&quot; /&gt;&#10;$END$" description="image placeholder LOREMPIXEL" toReformat="false" toShortenFQNames="true">
+        <variable name="WIDTH" expression="&quot;Width-?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="HEIGHT" expression="&quot;Eight-?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CAT" expression="enum(&quot;abstract&quot;, &quot;animals&quot;, &quot;business&quot;, &quot;cats&quot;, &quot;city&quot;, &quot;food&quot;, &quot;nightlife&quot;, &quot;fashion&quot;, &quot;people&quot;, &quot;nature&quot;, &quot;sports&quot;, &quot;technics&quot;, &quot;transport&quot;)" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="imgpi" value="&lt;img src=&quot;http://placehold.it/$WIDTH$x$HEIGHT$&amp;text=$TEXT$&quot; alt=&quot;&quot;/&gt;$END$&#10;" description="Image placeholder PLACEHOLD.IT" toReformat="false" toShortenFQNames="true">
+        <variable name="WIDTH" expression="&quot;width-?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="HEIGHT" expression="&quot;height-?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="TEXT" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="imgpg" value="img[src=http://www.lorempixel.com/$WIDTH$/$EIGHT$/$CAT$/$/ alt=$CAT$$]*10$EMMET$$END$&#10;" description="image gallery placeholder LOREMPIXEL  (using emmet)" toReformat="false" toShortenFQNames="true">
+        <variable name="WIDTH" expression="&quot;Width-?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="EIGHT" expression="&quot;Eight-?&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="CAT" expression="enum(&quot;abstract&quot;, &quot;animals&quot;, &quot;business&quot;, &quot;cats&quot;, &quot;city&quot;, &quot;food&quot;, &quot;nightlife&quot;, &quot;fashion&quot;, &quot;people&quot;, &quot;nature&quot;, &quot;sports&quot;, &quot;technics&quot;, &quot;transport&quot;)" defaultValue="" alwaysStopAt="true" />
+        <variable name="EMMET" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
     <!-- END UTILITY GROUP -->
     <!-- MISCELLANEOUS GROUP -->
     <template name="zf-bower" value="&lt;!doctype html&gt;&#10;&lt;html class=&quot;no-js&quot; lang=&quot;en&quot;&gt;&#10;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;utf-8&quot; /&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;&#10;    &lt;script src=&quot;bower_components/modernizr/modernizr.js&quot;&gt;&lt;/script&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;bower_components/foundation/css/foundation.css&quot;/&gt;&#10;    &lt;title&gt;&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;    $END$&#10;&#10;&lt;script src=&quot;bower_components/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;bower_components/foundation/js/foundation.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;/body&gt;&#10;&#10;&lt;/html&gt;" description="Template html bower_components" toReformat="true" toShortenFQNames="true">
@@ -1175,16 +1223,6 @@
     </template>
     <template name="zf-jinit" value="&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/vendor/jquery.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.$CALL$.js&quot;&gt;&lt;/script&gt;&#10;&#10;&lt;script&gt;&#10;    $(document).foundation();&#10;&lt;/script&gt;" description="CDN js.min + js.min lib + initialize Foundation" toReformat="false" toShortenFQNames="true">
         <variable name="CALL" expression="enum(&quot;abide.min&quot;, &quot;accordion.min&quot;, &quot;alert.min&quot;, &quot;clearing.min&quot;, &quot;dropdown.min&quot;, &quot;equalizer.min&quot;, &quot;interchange.min&quot;, &quot;joyride.min&quot;, &quot;magellan.min&quot;, &quot;offcanvas.min&quot;, &quot;orbit.min&quot;, &quot;reveal.min&quot;, &quot;slider.min&quot;, &quot;tab.min&quot;, &quot;tooltip.min&quot;, &quot;topbar.min&quot;)" defaultValue="" alwaysStopAt="true" />
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="PHP" value="true"/>
-            <option name="GSP" value="true"/>
-            <option name="JSP" value="true"/>
-        </context>
-    </template>
-    <template name="imgp" value="&lt;img src=&quot;http://placehold.it/$SIZE$&quot; alt=&quot;&quot;/&gt;" description="Image placeholder" toReformat="false" toShortenFQNames="true">
-        <variable name="SIZE" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
