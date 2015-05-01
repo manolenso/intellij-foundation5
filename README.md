@@ -217,4 +217,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 | add medium column                |  ADDmedium-column-item               |
 | add small medium large column    |  ADDsmall-medium-large-column-item  |
 | add Vcard                        |  ADDvcard-item                 |
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/manolenso/intellij-foundation5/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
