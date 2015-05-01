@@ -221,3 +221,7 @@ To install the plugin open your editor (WebStorm or PHPStorm) and hit:
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/manolenso/intellij-foundation5/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 Foundation 5 - Intellij Plugin is open-sourced software licenced under the [MIT:Licence](http://opensource.org/licenses/MIT)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/manolenso/intellij-foundation5/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
