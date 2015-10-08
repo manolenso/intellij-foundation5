@@ -1,6 +1,8 @@
 Intellij Zurb Foundation 5 plugin
 ==================================
 
+[![Join the chat at https://gitter.im/manolenso/intellij-foundation5](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/manolenso/intellij-foundation5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 An IntelliJ plugin containing Zurb foundation 5 live templates! This plugin works for the following JetBrains products:
 
 - IntelliJ IDEA 14 , PhpStorm 8, RubyMine 7
