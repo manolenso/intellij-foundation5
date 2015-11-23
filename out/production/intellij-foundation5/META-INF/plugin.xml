@@ -1,0 +1,64 @@
+<idea-plugin version="2" url="https://github.com/manolenso/intellij-foundation5">
+  <id>com.manolenso.intellij.foundation5</id>
+  <name>Zurb Foundation 5</name>
+  <version>2.4</version>
+  <vendor url="https://github.com/manolenso/intellij-foundation5">Manolenso</vendor>
+
+  <description><![CDATA[
+     <h2>Zurb Foundation 5 live template snippets </h2>
+     <br/>
+
+      <p>Follow me on Twitter: <a href="https://twitter.com/manolenso"><b>@manolenso</b></a></p><br />
+      <p>Snippets enhancement: <a href="https://github.com/manolenso/intellij-foundation5/labels/snippets/enhancement"><b>Enhancement</b></a></p>
+
+      <i>Compiled with Java 1.6</i>
+
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <br>
+      2.4 update cdn libs to 5.5.3<br />
+      2.3 update cdn libs to 5.5.2<br />
+      2.2 added utility placeholder<br />
+      2.1 correct bug in zf-nvib<br />
+      2.0 correct and simplify button components<br />
+      1.9 correct mistake trigger name & update some components<br />
+      1.8 added typography and rewrite some structure components<br />
+      1.7 added callouts & prompts components<br />
+      1.6 added content components, some of them use Emmet plugin!<br />
+      1.5 added forms components<br />
+      1.4 added media components<br />
+      1.3 added navigation components<br />
+      1.2 added structure components rename trigger<br />
+      1.1 added buttons components, bug fixes<br />
+      1.0 Initial release<br />
+    ]]>
+  </change-notes>
+
+  <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="139"/>
+
+  <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+
+  <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <defaultLiveTemplatesProvider implementation="com.intellij.plugin.foundation5.Foundation5TemplatesProvider"/>
+  </extensions>
+
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
