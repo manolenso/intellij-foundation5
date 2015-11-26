@@ -6,46 +6,223 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/normalize.min.css"/>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css"/>
+    <link rel="stylesheet" href="styles/monokai_sublime.css">
+
+
 </head>
 <body>
+
+
 <style>
     body{
         background-color: #778899;
+    }
+    .accordion{
+        -webkit-box-shadow: 0 0 17px 1px #0D0026;
+        box-shadow: 0 0 17px 1px #0D0026;
     }
 </style>
 
 <div class="off-canvas-wrap" data-offcanvas>
   <div class="inner-wrap">
-    <nav class="tab-bar">
-      <section class="left-small">
-        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
-      </section>
+          <nav class="tab-bar">
+              <section class="left-small">
+                  <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+              </section>
 
-      <section class="middle tab-bar-section">
-        <h1 class="title">Intellij JetBrains Zurb Foundation 5 plugin</h1>
-      </section>
+              <section class="middle tab-bar-section">
+                  <h1 class="title">Intellij JetBrains Zurb Foundation 5 plugin</h1>
+              </section>
 
-    </nav>
+          </nav>
+
+
 
     <aside class="left-off-canvas-menu">
       <ul class="off-canvas-list">
           <i><label>COMPONENTS</label></i>
-          <li><a href="#cdn">CDN</a></li>
-          <li><a href="#structure">STRUCTURE</a></li>
-          <li><a href="#navigation">NAVIGATION</a></li>
-          <li><a href="#media">MEDIA</a></li>
-          <li><a href="#forms">FORMS</a></li>
-          <li><a href="#buttons">BUTTONS</a></li>
-          <li><a href="#typography">TYPOGRAPHY</a></li>
-          <li><a href="#callouts-and-prompts">CALLOUTS And PROMPTS</a></li>
-          <li><a href="#content">CONTENT</a></li>
-          <li><a href="#utility">UTILITY</a></li>
-          <li><a href="#miscellaneous">MISCELLANEOUS</a></li>
-          <li><a href="#inception">INCEPTION</a></li>
-      </ul>
-    </aside>
+          <li class="has-submenu"><a href="#cdn">CDN</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><label>zf-cdn</label></li>
+                  <li><a href="#">zf-cdn-css</a></li>
+                  <li><a href="#">zf-cdn-icon</a></li>
+                  <li><a href="#">zf-cdn-lib</a></li>
+                  <li><a href="#">zf-cdn-vendoor</a></li>
+              </ul>
 
-    <section class="main-section">
+          </li>
+          <!-- Structure menu -->
+          <li class="has-submenu"><a href="#structure">STRUCTURE</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><a href="#">zf-stba</a></li>
+                  <li><a href="#">zf-stbb</a></li>
+                  <li><a href="#">zf-stc</a></li>
+                  <li><a href="#">zf-stj</a></li>
+                  <li><a href="#">zf-stl</a></li>
+                  <li><a href="#">zf-stlc</a></li>
+                  <li><a href="#">zf-stmc</a></li>
+                  <li><a href="#">zf-str</a></li>
+                  <li><a href="#">zf-stro</a></li>
+                  <li class="has-submenu"><a href="#">zf-strow</a>
+                      <ul class="left-submenu">
+                          <li class="back"><a href="#">Back</a></li>
+                          <li><label>ADDsmall-column-item</label></li>
+                          <li><label>ADDmedium-column-item</label></li>
+                          <li><label>ADDlarge-column-item</label></li>
+                          <li><label>ADDsmall-medium-large-column-item</label></li>
+                          <!-- ADDsmall-column-item ** ADDmedium-column-item ** ADDlarge-column-item ** ADDsmall-medium-large-column-item ** End Row  -->
+                      </ul>
+                  </li>
+                  <li><a href="#">zf-stsc</a></li>
+                  <li><a href="#">zf-stsh</a></li>
+                  <li><a href="#">zf-stslc</a></li>
+                  <li><a href="#">zf-stsh</a></li>
+                  <li><a href="#">zf-stslc</a></li>
+                  <li><a href="#">zf-stsmlc</a></li>
+                  <li><a href="#">zf-stvh</a></li>
+              </ul>
+           </li>
+          <!-- End Structure menu -->
+          <!-- Navigation menu -->
+          <li class="has-submenu"><a href="#navigation">NAVIGATION</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><a href="#">zf-nvbrc</a></li>
+                  <li class="has-submenu"><a href="#">zf-nvib</a>
+                    <ul class="left-submenu">
+                        <li class="back"><a href="#">Back</a></li>
+                        <li><label>ADDicon-item</label></li>
+                    </ul>
+                  </li>
+                  <li class="has-submenu"><a href="#">zf-nvmg <code>magellan.js</code></a>
+                      <ul class="left-submenu">
+                          <li class="back"><a href="#">Back</a></li>
+                          <li><label>ADDmagellan-item</label></li>
+                      </ul>
+                  </li>
+                  <li><a href="#">zf-nvofa <code> offcanvas.js</code></a></li>
+                  <li><a href="#">zf-nvofb <code> offcanvas.js</code></a></li>
+                  <li><a href="#">zf-nvpg</a></li>
+                  <li><a href="#">zf-nvsbn</a></li>
+                  <li><a href="#">zf-nvsn</a></li>
+                  <li><a href="#">zf-nvtb <code>topbar.js</code></a></li>
+                  <li><a href="#">zf-nvtsb <code>topbar.js</code></a></li>
+              </ul>
+          </li>
+          <!-- End Navigation menu -->
+          <!-- Media menu -->
+          <li class="has-submenu"><a href="#media">MEDIA</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><a href="#">zf-mdcl <code>clearing.js</code></a></li>
+                  <li><a href="#">zf-mdfv</a></li>
+                  <li><a href="#">zf-mdos <code>orbit.js</code></a></li>
+                  <li><a href="#">zf-mdtb</a></li>
+              </ul>
+          </li>
+          <!--  End Media menu -->
+          <!--  Forms menu -->
+          <li class="has-submenu"><a href="#forms">FORMS</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><a href="#">zf-foab <code>abide.js</code></a></li>
+                  <li><a href="#">zf-focb</a></li>
+                  <li><a href="#">zf-form</a></li>
+                  <li><a href="#">zf-fors</a></li>
+                  <li><a href="#">zf-fosl <code>slider.js</code></a></li>
+                  li
+              </ul>
+          </li>
+          <!--  End Forms menu -->
+          <!--  Buttons menu -->
+          <li class="has-submenu"><a href="#buttons">BUTTONS</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><a href="#">zf-bt</a></li>
+                  <li><a href="#">zf-btbg</a></li>
+                  <li><a href="#">zf-bttc</a></li>
+                  <li><a href="#">zf-btdp <code>dropdown.js</code></a></li>
+                  <li><a href="#">zf-btg</a></li>
+                  <li><a href="#">zf-bts</a></li>
+                  <li><a href="#">zf-btsg</a></li>
+                  <li><a href="#">zf-btsp <code>dropdown.js</code></a></li>
+              </ul>
+          </li>
+          <!--  End Buttons menu -->
+          <!--  Typography menu -->
+          <li class="has-submenu"><a href="#typography">TYPOGRAPHY</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><a href="#">zf-tylb</a></li>
+              </ul>
+          </li>
+          <!--  End Typography menu -->
+          <!-- CALLOUTS And PROMPTS menu -->
+          <li class="has-submenu"><a href="#callouts-and-prompts">CALLOUTS And PROMPTS</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><a href="#">zf-cprm <code>reveal.js</code></a></li>
+                  <li><a href="#">zf-cpal <code>alert.js</code></a></li>
+                  <li><a href="#">zf-cppn</a></li>
+                  <li><a href="#">zf-cptt <code>tooltip.js</code></a></li>
+                  <li><a href="#">zf-cpjr <code>joyride.js</code></a></li>
+              </ul>
+          </li>
+          <!-- End CALLOUTS And PROMPTS menu -->
+          <!-- Content menu -->
+          <li class="has-submenu"><a href="#content">CONTENT</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><a href="#">zf-ctac <code>accordion.js</code></a></li>
+                  <li><a href="#">zf-ctbs <code>tab.js</code></a></li>
+                  <li><a href="#">zf-ctdl <code>dropdown</code></a></li>
+                  <li><a href="#">zf-cteq <code>equalizer.js</code></a></li>
+                  <li><a href="#">zf-ctpb</a></li>
+                  <li><a href="#">zf-ctpt</a></li>
+                  <li><a href="#">zf-cttb</a></li>
+              </ul>
+          </li>
+          <!-- End Content menu -->
+          <!-- UTILITY menu -->
+          <li class="has-submenu"><a href="#utility">UTILITY</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><a href="#">txtc</a></li>
+                  <li><a href="#">txtj</a></li>
+                  <li><a href="#">txtl</a></li>
+                  <li><a href="#">txtr</a></li>
+              </ul>
+          </li>
+          <!-- End UTILITY menu -->
+          <!-- MISCELLANEOUS menu -->
+          <li class="has-submenu"><a href="#miscellaneous">MISCELLANEOUS</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><a href="#">zf-bower</a></li>
+                  <li><a href="#">imgp</a></li>
+                  <li><a href="#">zf-jinit</a></li>
+              </ul>
+          </li>
+          <!-- End MISCELLANEOUS  menu -->
+          <!-- INCEPTION menu -->
+          <li class="has-submenu"><a href="#inception">INCEPTION</a>
+              <ul class="left-submenu">
+                  <li class="back"><a href="#">Back</a></li>
+                  <li><label>ADD</label></li>
+                  <li><a href="#">Link 1</a></li>
+              </ul>
+          </li>
+          <!-- End INCEPTION menu -->
+      </ul>
+  </aside>
+      <!-- enum("abide", "accordion", "alert", "clearing", "dropdown",
+      "equalizer", "interchange", "joyride", "magellan", "offcanvas",
+      "orbit", "reveal", "slider", "tab", "tooltip", "topbar") -->
+
+
+      <section class="main-section">
         <div class="row">
             <div class="large-12 columns">
 
@@ -126,36 +303,39 @@
             </div>
       </div>
     </section>
-
   <a class="exit-off-canvas"></a>
-
-
 </div>
+
+
+
+
 <div class="row">
-    <p>Foundation 5 - Intellij Plugin is open-sourced software licenced under the <a class="text-center" href="http://opensource.org/licenses/MIT">MIT:Licence</a></p>
 
+    <br/>
+    <p class="text-center" ><span class="success radius label">Foundation 5 - Intellij Plugin is open-sourced software licenced under the <a class="text-center" href="http://opensource.org/licenses/MIT"> MIT:Licence</span></a></p>
 </div>
 
+    
 
 
 
-
-
-
-
-
-
-
+<script type="text/javascript" src="highlight.pack.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/vendor/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.accordion.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.tab.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.topbar.min.js"></script>
-
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.reveal.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation/foundation.offcanvas.min.js"></script>
 
 <script>
+    hljs.initHighlightingOnLoad();
     $(document).foundation();
 </script>
 </body>
 </html>
+
+
+
+
